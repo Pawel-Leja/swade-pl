@@ -1,26 +1,26 @@
 const skillDict = {
-	'Shooting' : 'Sparare',
-	'Fighting' : 'Combattere',
-	'Piloting' : 'Pilotare',
-	'Riding' : 'Cavalcare',
-	'Boating' : 'Navigare',
-	'Driving' : 'Guidare'
+	'Shooting' : 'Strzelanie',
+	'Fighting' : 'Walka',
+	'Piloting' : 'Pilotowanie',
+	'Riding' : 'Jeździectwo',
+	'Boating' : 'Żeglowanie',
+	'Driving' : 'Prowadzenie'
 }
 
 const folderDict = {
-	'Skills': 'Abilità',
-	'Hindrances' : 'Svantaggi',
-	'Edges' : 'Vantaggi',
-	'Background Edges' : '01 - Vantaggi di Background',
-	'Combat Edges' : '02 - Vantaggi di Combattimento',
-	'Leadership Edges' : '03 - Vantaggi di Leadership',
-	'Power Edges' : '04 - Vantaggi di Potere',
-	'Professional Edges' : '05 - Vantaggi Professionali',
-	'Social Edges' : '06 - Vantaggi Sociali',
-	'Weird Edges' : '07 - Vantaggi Folli',
-	'Legendary Edges' : '08 - Vantaggi Leggendari',
-	'Bestiary' : 'Bestiario',
-	'Vehicles' : 'Veicoli',
+	'Skills': 'Umiejętności',
+	'Hindrances' : 'Zawady',
+	'Edges' : 'Przewagi',
+	'Background Edges' : '01 - Przewagi Wrodzone',
+	'Combat Edges' : '02 - Przewagi Bojowe',
+	'Leadership Edges' : '03 - Przewagi Przywódcze',
+	'Power Edges' : '04 - Przewagi Nadprzyrodzone',
+	'Professional Edges' : '05 - Przewagi Zawodowe',
+	'Social Edges' : '06 - Przewagi Społeczne',
+	'Weird Edges' : '07 - Przewagi Niesamowite',
+	'Legendary Edges' : '08 - Przewagi Legendarne',
+	'Bestiary' : 'Bestariusz',
+	'Vehicles' : 'Pojazdy',
 }
 
 const actionDict = {
@@ -119,8 +119,8 @@ Hooks.once('init', () => {
 	if(typeof Babele !== 'undefined') {
 
 		Babele.get().register({
-			module: 'swade-it',
-			lang: 'it',
+			module: 'swade-pl',
+			lang: 'pl',
 			dir: 'compendium'
 		});
 
