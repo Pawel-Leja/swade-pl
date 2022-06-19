@@ -1,0 +1,143 @@
+{
+    "label": "SWADE Bestiario",
+    "mapping": {
+        "cf_name": {
+            "path": "flags.cf.name",
+            "converter": "translateCfName"
+        }
+    },
+    "entries": {
+        "Alligator/Crocodile": {
+            "name": "Alligatore/Coccodrillo"
+        },
+        "Bear": {
+            "name": "Orso"
+        },
+        "Bull": {
+            "name": "Toro"
+        },
+        "Cat, Small": {
+            "name": "Gatto"
+        },
+        "Dire Wolf": {
+            "name": "Lupo feroce"
+        },
+        "Dog / Wolf": {
+            "name": "Cane / Lupo"
+        },
+        "Dragon": {
+            "name": "Drago"
+        },
+        "Drake": {
+            "name": "Draco"
+        },
+        "Elemental, Air": {
+            "name": "Elementale dell'aria"
+        },
+        "Elemental, Earth": {
+            "name": "Elementale della terra"
+        },
+        "Elemental, Fire": {
+            "name": "Elementale del fuoco"
+        },
+        "Elemental, Water": {
+            "name": "Elementale dell'acqua"
+        },
+        "Ghost": {
+            "name": "Fantasma"
+        },
+        "Giant Worm": {
+            "name": "Verme gigante"
+        },
+        "Goblin": {
+            "name": "Goblin"
+        },
+        "Horse": {
+            "name": "Cavallo da sella"
+        },
+        "Horse, War": {
+            "name": "Cavallo da guerra"
+        },
+        "Lich": {
+            "name": "Lich"
+        },
+        "Lion": {
+            "name": "Leone"
+        },
+        "Mech": {
+            "name": "Mech"
+        },
+        "Minotaur": {
+            "name": "Minotauro"
+        },
+        "Mule": {
+            "name": "Mulo"
+        },
+        "Ogre": {
+            "name": "Ogre"
+        },
+        "Orc": {
+            "name": "Orco"
+        },
+        "Orc, Chieftain": {
+            "name": "Orco, Capotribù"
+        },
+        "Raptor (Birds of Prey)": {
+            "name": "Rapace"
+        },
+        "Shark": {
+            "name": "Squalo"
+        },
+        "Shark, Bull": {
+            "name": "Squalo toro"
+        },
+        "Shark, Great White": {
+            "name": "Squalo bianco"
+        },
+        "Skeleton": {
+            "name": "Scheletro"
+        },
+        "Snake, Constrictor": {
+            "name": "Serpente constrictor"
+        },
+        "Snake, Venomous": {
+            "name": "Serpente velenoso"
+        },
+        "Soldier": {
+            "name": "Soldato"
+        },
+        "Soldier, Experienced": {
+            "name": "Soldato con esperienza"
+        },
+        "Spider, Giant": {
+            "name": "Ragno gigante"
+        },
+        "Summon Ally: Attendant": {
+            "name": "Evoca alleato: Servitore"
+        },
+        "Summon Ally: Bodyguard": {
+            "name": "Evoca alleato: Guardia del Corpo"
+        },
+        "Summon Ally: Sentinel": {
+            "name": "Evoca alleato: Sentinella"
+        },
+        "Swarm": {
+            "name": "Sciame"
+        },
+        "Troll": {
+            "name": "Troll"
+        },
+        "Vampire": {
+            "name": "Vampiro"
+        },
+        "Vampire, Ancient": {
+            "name": "Vampiro antico"
+        },
+        "Werewolf": {
+            "name": "Licantropo"
+        },
+        "Zombie": {
+            "name": "Zombi"
+        }
+    }
+}

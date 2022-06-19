@@ -1,0 +1,13 @@
+{
+    "label": "SWADE Abilità",
+    "mapping": {
+        "name": {
+            "path": "name",
+            "converter": "translateName"
+        },
+        "cf_name": {
+            "path": "flags.cf.name",
+            "converter": "translateCfName"
+        }
+    }
+}

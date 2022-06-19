@@ -1,0 +1,13 @@
+{
+	"label": "Deadlands Svantaggi",
+    "mapping": {
+        "description": "data.description",
+        "requirements": "data.requirements",
+		"cf_name": {
+			"path": "flags.cf.name",
+			"converter": "translateCfName"
+		}
+    },
+	"entries": {
+	}
+}

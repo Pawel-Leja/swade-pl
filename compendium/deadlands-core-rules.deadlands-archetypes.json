@@ -1,0 +1,11 @@
+{
+    "label": "Deadlands Archetipi",
+    "mapping": {
+        "cf_name": {
+            "path": "flags.cf.name",
+            "converter": "translateCfName"
+        }
+    },
+    "entries": {
+    }
+}

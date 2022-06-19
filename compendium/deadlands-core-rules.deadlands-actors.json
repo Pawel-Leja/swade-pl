@@ -1,0 +1,14 @@
+{
+    "label": "Deadlands Attori",
+    "mapping": {
+        "cf_name": {
+            "path": "flags.cf.name",
+            "converter": "translateCfName"
+        }
+    },
+    "entries": {
+        "Animated Hand": {
+            "name": "Mano animata"
+        }
+    }
+}

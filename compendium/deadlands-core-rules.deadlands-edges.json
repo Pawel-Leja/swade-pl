@@ -1,0 +1,664 @@
+{
+	"label": "Deadlands Vantaggi",
+    "mapping": {
+        "description": "data.description",
+        "requirements": "data.requirements",
+		"cf_name": {
+			"path": "flags.cf.name",
+			"converter": "translateCfName"
+		}
+    },
+	"entries": {
+		"Agency Promotion": {
+			"name": "Agency Promotion",
+			"description": "<div class=\"deadlands-core\">\n<p>This Edge reflects a promotion by the Agency for your hero&rsquo;s devotion, loyalty, and effectiveness. The first time it&rsquo;s taken he becomes a Grade 1 Agent. This grants him a slight pay raise, the ability to spend higher @Compendium[deadlands-core-rules.deadlands-rules.02 Agents]{Favors}, and a @Compendium[deadlands-core-rules.deadlands-equipment.Armored vest/corset (light)]{light armored vest (or corset)} if he chooses.</p>\n<p>The second time he takes this Edge he becomes a Grade 2 Agent. He gets another pay raise, the ability to call for greater @Compendium[deadlands-core-rules.deadlands-rules.02 Agents]{Favors}, and his mnemomizer.</p>\n<p>A player character can take this Edge one final time at @Compendium[swade-core-rules.swade-rules.Advancement]{Heroic Rank}. This makes him a Grade 3 Agent and allows him to ask for 4-point Favors.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Agent"
+			}
+		},
+		"Agent": {
+			"name": "Agente",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>:Novice, Smarts d8+, Fighting d6+, Occult d6+, Shooting d6+</p>\n<p>The shadowy @Compendium[deadlands-core-rules.deadlands-rules.02 Agents]{Agency} is responsible for rooting out sedition, treason, espionage, corruption, and illegal acts that might plunge the country into another Civil War.</p>\n<p>@Compendium[deadlands-core-rules.deadlands-rules.02 Agents]{Agents} are a secretive lot who don&rsquo;t share information outside their ranks if they can avoid it&mdash;not even with the local law. They&rsquo;re expected to conceal their credentials except under extreme and desperate circumstances. @Compendium[deadlands-core-rules.deadlands-rules.02 Agents]{Read the top secret details here}.</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"Alchemy": {
+			"name": "Alchemy",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Seasoned, @Compendium[deadlands-core-rules.deadlands-actors.Mad Scientist]{Mad Scientist}, Weird Science d8+</p>\n<p>Weird scientists can already make potions, elixirs, tinctures, and the like depending on the @Compendium[swade-core-rules.swade-rules.Trappings]{Trappings} of their powers. They can use them on others, but can&rsquo;t &ldquo;give&rdquo; them to others unless they craft the item with the @Compendium[swade-core-rules.swade-edges.Artificer]{Artificer Edge} (see <cite>Savage Worlds</cite>).</p>\n<p>The Alchemy Edge is a bit of a cheat, allowing a character to create up to three potions or elixirs, investing a single @Compendium[swade-core-rules.swade-edges.Power Points]{Power Point} in each. Creating the potions takes 30 minutes and $5 worth of various reagents each, and always includes at least a pinch of @Compendium[deadlands-core-rules.deadlands-rules.05 Ghost Rock]{ghost rock}. No @Compendium[swade-core-rules.swade-skills.Weird Science]{Weird Science} roll is made&mdash;creation is automatically successful, and creates any mix of the potions listed below. These can be given away freely and last for 24 hours. The scientist doesn&rsquo;t get the@Compendium[swade-core-rules.swade-edges.Power Points]{Power Points} back until they&rsquo;re used, discarded, or expire.</p>\n<p>Drinking one potion is an action.</p>\n<ul>\n<li><strong>Snake Oil:</strong> The recipient makes a @Compendium[swade-core-rules.swade-rules.Healing]{natural healing roll}. Success heals one @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wound} and a raise heals two.</li>\n<li><strong>Focusing Elixir:</strong> Add +1 to any one @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Trait&rsquo;s rolls} (alchemist&rsquo;s choice when created) for three rounds.</li>\n<li><strong>Peptonic:</strong> The recipient makes a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Vigor roll}. Success removes one level of @Compendium[swade-core-rules.swade-rules.Fatigue]{Fatigue}, and a raise removes two.</li>\n</ul>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"Arcane Background (Blessed)": {
+			"name": "Background Arcano (Miracoli)",
+			"description": "<div class=\"deadlands-core\">\n<p>Certain characters can call upon the power of their deity or deities for aid. In the Weird West, these pious souls are known as the blessed. @Compendium[deadlands-core-rules.deadlands-rules.03 Blessed]{Blessed} are nuns, priests, or any average but (relatively) pure-hearted folks touched by a divine entity. Though rare in the Weird West, there are also blessed imams, Buddhist monks, and others of faith running around with higher powers covering their holy backsides. When these folks behave themselves, they can invoke miracles to help them fight the evils of the Weird West. Blessed use @Compendium[swade-core-rules.swade-skills.Faith]{Faith} as their arcane skill.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Spirit d6+, Faith d4+"
+			}
+		},
+		"Arcane Background (Chi Master)": {
+			"name": "Background Arcano (Controllo del Chi)",
+			"description": "<div class=\"deadlands-core\">\n<p>A few folks in the Weird West have studied the ancient Asian fighting arts. A very few of these supremely skilled fighters have achieved the spiritual discipline necessary to channel supernatural force through their own bodies, called chi. These enlightened fighters use the Arcane Background (Chi Master) Edge to reflect their astonishing abilities. @Compendium[deadlands-core-rules.deadlands-rules.04 Chi Masters]{Chi masters} use @Compendium[swade-core-rules.swade-skills.Focus]{Focus} as their arcane skill.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Agility d6+, Spirit d6+, Martial Artist, Focus d4+"
+			}
+		},
+		"Arcane Background (Huckster)": {
+			"name": "Arcane Background (Huckster)",
+			"description": "<div class=\"deadlands-core\">\n<p>Magic in the Weird West is not to be taken lightly. Those who practice sorcery must often wrestle their powers from dark spirits, who are rarely willing to give up easily. @Compendium[deadlands-core-rules.deadlands-rules.06 Hucksters]{Hucksters} envision these duels of will as card games, and the best are capable of amazing powers. Others reportedly tread even darker paths and harness the power of blood magic. Hucksters use @Compendium[swade-core-rules.swade-skills.Spellcasting]{Spellcasting} as their arcane skill.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Gambling d6+, Spellcasting d4+"
+			}
+		},
+		"Arcane Background (Mad Scientist)": {
+			"name": "Background Arcano (Scienza Folle)",
+			"description": "<div class=\"deadlands-core\">\n<p>Adherents to the principles of @Compendium[deadlands-core-rules.deadlands-rules.07 Mad Scientists]{New Science} (called mad scientists by most) build weird and wonderful devices, machines which often seem to defy the very laws of reality. Most every such inventor&mdash;or at least the successful ones&mdash;rely on @Compendium[deadlands-core-rules.deadlands-rules.05 Ghost Rock]{ghost rock} to power their inventions in some fashion. Mad scientists use @Compendium[swade-core-rules.swade-skills.Weird Science]{Weird Science} as their arcane skill.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Smarts d8+, Science d6+, Weird Science d4+"
+			}
+		},
+		"Arcane Background (Shaman)": {
+			"name": "Background Arcano (Sciamanismo)",
+			"description": "<div class=\"deadlands-core\">\n<p>@Compendium[deadlands-core-rules.deadlands-rules.08 Shamans]{Shamans} are Indian holy men and women, and keepers of tribal medicine. Their power comes from bargains with the demanding spirits of the natural world. When these medicine men or women honor the nature spirits, they can accomplish amazing feats that make even the most doubting Thomas tremble. Shamans use @Compendium[swade-core-rules.swade-skills.Faith]{Faith} as their arcane skill.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Spirit d8+, Faith d4+"
+			}
+		},
+		"Arcane Background (Voodooist)": {
+			"name": "Arcane Background (Voodooist)",
+			"description": "<div class=\"deadlands-core\">\n<p>Voodoo&rsquo;s roots lie in Africa. The Mid-Atlantic slave trade brought Africans to the island of Hispaniola where their captors attempted to convert them to Catholicism. Instead, the ancient worship of spirits blended with the worship of saints and became the practice known as voodoo.</p>\n<p>Those who practice voodoo are houngans (male) and mambos (female)&mdash;collectively, &ldquo;voodooists.&rdquo; Their power comes through spirits called &ldquo;loas,&rdquo; a host of spirits with specific personalities and traits like Baron Samedi (loa of the dead, who wears a top hat, black tail coat, and dark glasses), Papa Legba (intermediary of the spirit world who appears as an old man with a cane and straw hat), or the terrifying Marinette of the Dry Arms (a violent spirit who frees her people from bondage).</p>\n<p>&nbsp;</p>\n<p>Voodooists use @Compendium[swade-core-rules.swade-skills.Faith]{Faith} as their arcane skill.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Spirit d8+, Faith d4+"
+			}
+		},
+		"Arcane Background (Witch)": {
+			"name": "Background Arcano (Strega)",
+			"description": "<div class=\"deadlands-core\">\n<h3>Not Your Gramma's Witches</h3>\n<p>Let&rsquo;s be clear before we go any further. We&rsquo;re not talking about wiccans, white witches, hedge mages, or other magic users who draw their power from nature, themselves, or anything good. Use the blessed or shamans for those who walk on the side of light.</p>\n<h3>Black Magic</h3>\n<p>This Arcane Background features witches and warlocks who draw energy straight out of the darkest part of the Hunting Grounds. &ldquo;Black magic&rdquo; is a quick and easy source of power for those who learn to take it, and it&rsquo;s as tainted as week old meat. The Reckoners are happy to let mortals play with this power, even if they think they&rsquo;re ultimately doing good with it, because eventually it corrupts even the strongest wills.</p>\n<p>Since witches gain their power from black magic, they gain certain advantages when the Fear Level is 4 or higher, just like those practitioners of black magic under the Marshal&rsquo;s control:</p>\n<ul>\n<li><span class=\"list-heading\">Fear Level 4&ndash;5:</span> The witch gets a free reroll on any failed @Compendium[swade-core-rules.swade-skills.Spellcasting]{Spellcasting} roll.</li>\n<li><span class=\"list-heading\">Deadlands:</span> The witch gets a free reroll on all Spellcasting rolls.</li>\n</ul>\n<p>Of course those rerolls just give the witch more chances to become Corrupted, as we&rsquo;ll examine next!</p>\n<h3>Corruption</h3>\n<p>In addition to the usual effects of @Compendium[swade-core-rules.swade-rules.Fatigue]{Fatigue} and terminating all active powers, a witch who rolls a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failute} gains a point of Corruption. Each point of Corruption gives her a new Minor @Compendium[swade-core-rules.swade-rules.Hindrances]{Hindrance} or increases a Minor to a Major (her choice).</p>\n<p>Hindrances should be negative in nature. A witch might become excessively irritable (@Compendium[swade-core-rules.swade-hindrances.Mean]{Mean}), grow a large wart on her nose (@Compendium[swade-core-rules.swade-hindrances.Ugly]{Ugly}), or even become @Compendium[swade-core-rules.swade-hindrances.Wanted]{Wanted} by the authorities. Occasional &ldquo;good&rdquo; Hindrances, like @Compendium[swade-core-rules.swade-hindrances.Loyal]{Loyal}, are possible with the Marshal&rsquo;s permission.</p>\n<p>If a witch&rsquo;s Corruption ever equals her Spirit, she becomes a truly evil nonplayer character under the Marshal&rsquo;s control.</p>\n<p><strong>Reducing Corruption:</strong> Every time a witch participates in reducing a region&rsquo;s @Compendium[deadlands-core-rules.deadlands-rules.04 Fear]{Fear Level}, she reduces her Corruption by 1. This eliminates a Minor Hindrance she gained through Corruption, or reduces a Major Hindrance gained through Corruption to the Minor version. (It doesn&rsquo;t affect other Hindrances she acquired or started with.)</p>\n<p>She may also rid herself of a Hindrance gained in this way by spending an Advance. If the Hindrance was gained from Corruption, it removes a point of Corruption as well.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Spirit d8+, Spellcasting d4+"
+			}
+		},
+		"Been to the Crossroads": {
+			"name": "Been to the Crossroads",
+			"description": "<div class=\"deadlands-core\">\n<p>This hero nearly died at some point but came back. He&rsquo;s seen the crossroads between worlds, and the spirits hear his call better than most.</p>\n<p>This Edge may only be taken after character creation. The character must have been @Compendium[swade-core-rules.swade-rules.Damage Effects]{Incapacitated} due to an effect that could cause death (not getting enough sleep doesn&rsquo;t count, amigo). Once the voodooist is no longer Incapacitated, either because he is healed or comes back @Compendium[deadlands-core-rules.deadlands-rules.05 Harrowed]{Harrowed}, he gets a free reroll on Faith rolls.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Spirit d8+, Arcane Background (Voodooist), Faith d8+"
+			}
+		},
+		"Behold a Pale Horse": {
+			"name": "Behold a Pale Horse",
+			"description": "<div class=\"deadlands-core\">\n<p>The Lone Ranger had Silver, Zorro had Toronado, and your caballero&rsquo;s steed is no less impressive. Whether it&rsquo;s a new stallion or the same faithful pony your hero&rsquo;s had since she was young, there&rsquo;s something special about this horse. It has character.</p>\n<p>The faithful beast uses the statistics for a @Compendium[swade-core-rules.swade-equipment.War Horse]{war horse} (see <cite>Savage Worlds</cite>) but gains the @Compendium[swade-core-rules.swade-rules.Special Ability (Fearless)]{Fearless} special ability and the @Compendium[swade-core-rules.swade-edges.Danger Sense]{Danger Sense Edge}. What&rsquo;s more, the horse is a @Compendium[swade-core-rules.swade-rules.Wild Cards and Extras]{Wild Card}, and starts each session with its own two @Compendium[swade-core-rules.swade-rules.Bennies]{Bennies}.</p>\n<p>If the trusty steed dies, your hombre can start training another, a process that usually takes a few weeks of game time (GM&rsquo;s call).</p>\n</div>",
+			"requirements": {
+				"value": "Legendary"
+			}
+		},
+		"Born in the Saddle": {
+			"name": "Born in the Saddle",
+			"description": "<div class=\"deadlands-core\">\n<p>Some folks spend so much time on horseback, it&rsquo;s as if they were born in the saddle and live entirely in it. There&rsquo;s no place they&rsquo;d rather be than on the back of a trusty steed.</p>\n<p>Heroes with the Born in the Saddle Edge get a free reroll on @Compendium[swade-core-rules.swade-skills.Riding]{Riding} rolls. They also know how to get the most out of their trusty steeds in an emergency. This increases their horse&rsquo;s @Compendium[swade-core-rules.swade-rules.Characters]{Pace} by 2 and their @Compendium[swade-core-rules.swade-rules.Movement]{running die} one step.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Agility d8+, Riding d6+"
+			}
+		},
+		"Burrow": {
+			"name": "Burrow",
+			"description": "<div class=\"deadlands-core\">\n<p>The Harrowed gains the ability to burrow through raw earth, per the power (see <cite>@Compendium[swade-core-rules.swade-powers.Burrow]{Savage Worlds}</cite>). Although this makes him a very efficient traveler underground&mdash;the earth seems almost eager to get out of his way&mdash;he always finishes such a trip covered with soil, slime, millipedes, centipedes, and such subterranean accouterments.</p>\n<p>The deader can burrow into loose earth and move through it at half normal Pace (he cannot run). He cannot normally be attacked while burrowing, and can attempt to surprise opponents who didn&rsquo;t see him coming by making an opposed @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth} vs. @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll. If successful, the burrower adds +2 to his attack and damage rolls that round, or +4 with a raise (he has @Compendium[swade-core-rules.swade-rules.The Drop]{The Drop}).</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Harrowed"
+			}
+		},
+		"Card Sharp": {
+			"name": "Card Sharp",
+			"description": "<div class=\"deadlands-core\">\n<p>Your hero has a knack for odds, wagers, and when to call a bluff. He never feels more at home than when he&rsquo;s shuffling cards, tossing dice, or calculating the chances of some wager.</p>\n<p>Your character gets one free reroll when making a @Compendium[swade-core-rules.swade-skills.Gambling]{Gambling} roll. That includes hucksters who <strong>@Compendium[deadlands-core-rules.deadlands-rules.06 Hucksters]{Deal with the Devil}</strong>!</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Gambling d6+"
+			}
+		},
+		"Cat Eyes": {
+			"name": "Cat Eyes",
+			"description": "<div class=\"deadlands-core\">\n<p>The deader&rsquo;s eyes glow slightly in the dark, enhancing light and negating all @Compendium[swade-core-rules.swade-rules.Illumination]{Dim and Dark} penalties.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Harrowed"
+			}
+		},
+		"Celestial Kung Fu": {
+			"name": "Celestial Kung Fu",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Veteran, Spirit d8+, @Compendium[deadlands-core-rules.deadlands-edges.Superior Kung Fu]{Superior Kung Fu}, @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} d10+</p>\n<p>More options become available to a martial artist as she masters the mystical and physical aspects of her art.</p>\n<p>A hero with this Edge gains an additional style from Superior Kung Fu and may assume two styles at once using either or both options as she sees fit. She may change one or both as a free action at the start of her turn.</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"Charnel Breath": {
+			"name": "Charnel Breath",
+			"description": "<div class=\"deadlands-core\">\n<p>Charnel Breath is the ability to dredge up all the worst stench of decay in a Harrowed&rsquo;s body, supernaturally fester it even further, and blow it out all over an unsuspecting target within arm&rsquo;s reach. The corrosive gas produces watery eyes and violent retching.</p>\n<p>To do so, she breathes a cloud of noxious fumes in a @Compendium[swade-core-rules.swade-rules.Blast Templates]{Medium Blast Template} adjacent to her position. Everyone within must make a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Vigor roll} at &minus;2 or suffer @Compendium[swade-core-rules.swade-rules.Fatigue]{Fatigue}. This effect can only cause @Compendium[swade-core-rules.swade-rules.Damage Effects]{Incapacitation}, not death. Beings that don&rsquo;t breathe are immune to Charnel Breath.</p>\n<p>A Harrowed can wretch up these foul vapors only after eating something and waiting at least an hour&mdash;it has to &ldquo;simmer&rdquo; in his wretched innards for a while.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Harrowed"
+			}
+		},
+		"Chill O' The Grave": {
+			"name": "Chill O' The Grave",
+			"description": "<div class=\"deadlands-core\">\n<p>The Harrowed radiates the icy chill of death in a @Compendium[swade-core-rules.swade-rules.Blast Templates]{Large Blast Template} centered on herself. This costs a @Compendium[swade-core-rules.swade-rules.Bennies]{Benny} and takes an action. Living beings in the template who aren&rsquo;t protected by cold weather gear or the like are automatically @Compendium[swade-core-rules.swade-rules.Distracted and Vulnerable]{Vulnerable}.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Harrowed"
+			}
+		},
+		"Claws": {
+			"name": "Claws",
+			"description": "<div class=\"deadlands-core\">\n<p>The hero gains sharp claws that cause Str+d6 damage in combat. The Harrowed can extend or retract the claws as a free action.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Harrowed"
+			}
+		},
+		"Contortion": {
+			"name": "Contortion",
+			"description": "<div class=\"deadlands-core\">\n<p>It&rsquo;s amazing what you can do with your body when you know it won&rsquo;t cause any permanent damage.</p>\n<p>Contortion allows a Harrowed to dislocate pretty much any and every bone in her body&mdash;including shoulder blades, ribs, and pelvis.</p>\n<p>To escape from being @Compendium[swade-core-rules.swade-rules.Bound and Entangled]{Bound or Entangled}, or squeeze through a gap up to about the width of the Harrowed&rsquo;s skull, the deader makes a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Vigor} roll as an action to pop some bones out of their sockets and slip loose or crawl through a gap.</p>\n<p>Failure means he takes @Compendium[swade-core-rules.swade-rules.Fatigue]{Fatigue} and makes no progress (or takes a @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wound} with a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure}).</p>\n<p>Success means he either improves his situation one step (from Bound to Entangled), or slips through the gap (but it takes his entire turn&mdash;no other actions allowed). A raise means the contortionist is no longer Bound or Entangled, or moves through an opening as a normal move.</p>\n<p>Anyone who happens upon a Harrowed in his contorted, busted-up state must make a @Compendium[swade-core-rules.swade-rules.Fear]{Fear} check&mdash;it&rsquo;s a fairly gruesome sight!</p>\n</div>",
+			"requirements": {
+				"value": "Heroic, Harrowed"
+			}
+		},
+		"Damned": {
+			"name": "Damned",
+			"description": "<div class=\"deadlands-core\">\n<p>Old gunslingers don&rsquo;t die, they just&hellip;</p>\n<p>Okay, they <em>do</em> die. Usually in messy and embarrassing ways. But if your grizzled veteran of the Weird West goes down, he&rsquo;s definitely coming back. Taking this Edge is an insurance policy against having your plans for this old hand ended prematurely.</p>\n<p>If your hero is killed, he automatically returns from the grave as a @Compendium[deadlands-core-rules.deadlands-rules.05 Harrowed]{Harrowed}. Just how long that takes relies on the Marshal&rsquo;s whim and the story. It could be near-instant, or it could be after your partners put you in a pine box and read the 23rd Psalm.</p>\n<p>Once you return as Harrowed, you may trade this Edge for an additional @Compendium[deadlands-core-rules.deadlands-rules.05 Harrowed]{Harrowed Edge}.</p>\n</div>",
+			"requirements": {
+				"value": "Wild Card, Legendary, Spirit d6+, Reputation"
+			}
+		},
+		"Dead Man's Hand": {
+			"name": "Dead Man's Hand",
+			"description": "<div class=\"deadlands-core\">\n<p>Harrowed with this power can continue to control their own severed body parts&mdash;usually a hand or an eye&mdash;for short periods of time. To use the Edge, the deader slices off his own hand or plucks out an eyeball.</p>\n<p>The severed body part remains active and under its owner&rsquo;s mental control up to a Range of one mile.</p>\n<p>The deader can maintain the Dead Man&rsquo;s Hand as long as he wishes, though he has the @Compendium[swade-core-rules.swade-hindrances.One Arm]{One Arm} or @Compendium[swade-core-rules.swade-hindrances.One Eye]{One Eye} Hindrance until the body part is reattached.</p>\n<p>Severed hands use the @Compendium[deadlands-core-rules.deadlands-actors.Animate Hand]{Animate Hand} profile. They can &ldquo;walk&rdquo; on their fingers at a Pace of 6 (no running). Eyeballs magically transmit back whatever they see to the owner, and can roll around at a Pace of 6 (no running). Ears can&rsquo;t move on their own, but if left behind somewhere they relay whatever they &ldquo;hear&rdquo; back to their owner.</p>\n<strong>Healing:</strong> Severing a body part causes an immediate @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wound} and any Hindrance associated with it (One Eye for the removal of an eye, One Arm for a hand, @Compendium[swade-core-rules.swade-hindrances.Hard of Hearing]{Hard of Hearing} for an ear, and so on).\n<p>Sewing the body part back on reattaches it, but it doesn&rsquo;t actually work until the next time he makes a successful natural @Compendium[swade-core-rules.swade-powers.Healing]{Healing} roll.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, Harrowed"
+			}
+		},
+		"Dead Reckoning": {
+			"name": "Dead Reckoning",
+			"description": "<div class=\"deadlands-core\">\n<p>Dead Reckoning is the ability to sense the direction to any and all corpses&mdash;animal, human, or otherwise&mdash;within a mile.</p>\n<p>This shows up almost like radar in the Harrowed&rsquo;s mind. Bits and bones show up as small &ldquo;blips&rdquo; while fresh bodies are larger.</p>\n<p>Detecting the dead is an action but doesn&rsquo;t require a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Trait roll}. And yes, it can absolutely be used to tell if an individual is a walking corpse, though it doesn&rsquo;t tell him what kind&mdash;another @Compendium[deadlands-core-rules.deadlands-actors.Harrowed]{Harrowed}, @Compendium[swade-core-rules.swade-bestiary.Vampire]{Vampire}, @Compendium[deadlands-core-rules.deadlands-actors.Walkin' Dead]{walking dead}, etc.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Harrowed"
+			}
+		},
+		"Death Mask": {
+			"name": "Death Mask",
+			"description": "<div class=\"deadlands-core\">\n<p>Use of this Edge allows a Harrowed to appear as she did when she still drew breath, negating others&rsquo; Unfriendly attitudes and the Harrowed&rsquo;s innate &ndash;2 @Compendium[swade-core-rules.swade-skills.Persuasion]{Persuasion} penalty. Death Mask is an action to activate but doesn&rsquo;t require a Trait roll. Once activated, the Harrowed can keep it up as long as she likes.</p>\n<p>The effect is a minor illusion, so if the Harrowed is @Compendium[swade-core-rules.swade-rules.Damage Effects]{Shaken}, @Compendium[swade-core-rules.swade-rules.Stunned]{Stunned}, or suffers one or more Wounds, he must make a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Spirit} roll at &minus;2 to keep the disguise active. <em>@Compendium[swade-core-rules.swade-powers.Detect/Conceal Arcana]{Detect arcana}</em> automatically sees through this effect, and a successful <em>@Compendium[swade-core-rules.swade-powers.Dispel]{dispel}</em> removes it.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Harrowed, Persuasion d6+"
+			}
+		},
+		"Devil's Touch": {
+			"name": "Devil's Touch",
+			"description": "<div class=\"deadlands-core\">\n<p>A Harrowed with this Edge can disrupt the workings of any mad scientist&rsquo;s gizmo or @Compendium[deadlands-core-rules.deadlands-rules.09 Infernal Devices]{Infernal Device} with a touch. This is an action and a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Spirit} roll. If successful, any failure when using the device counts as a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure}. This lasts for three rounds after the device is touched, or five with a raise.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Harrowed"
+			}
+		},
+		"Don't Get 'Im Riled!": {
+			"name": "Don't Get 'Im Riled!",
+			"description": "<div class=\"deadlands-core\">\n<p>The hero with this Edge can be a real curly wolf when he gets roughed up. When causing @Compendium[swade-core-rules.swade-rules.Dealing Damage]{melee damage}, he adds his @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wound levels} to the roll.</p>\n<p>A hero with three Wounds, for instance, adds +3 to his melee damage rolls!</p>\n</div>",
+			"requirements": {
+				"value": "Novice"
+			}
+		},
+		"Duelist": {
+			"name": "Duellante",
+			"description": "<div class=\"deadlands-core\">\n<p>Your hombre is a deadly gunfighter, and anyone foolish enough to face him at High Noon is likely to end up in the boneyard by sunset. In a duel, this hero receives two extra Hole Cards at the start of the throwdown. See the rules for <em>@Compendium[deadlands-core-rules.deadlands-rules.03 Dueling]{Dueling}</em>.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Shooting d6+"
+			}
+		},
+		"Familiar": {
+			"name": "Familiar",
+			"description": "<div class=\"deadlands-core\">\n<p>Your witch has a small (Size &minus;3) creature that serves her.</p>\n<p>The familiar has the @Compendium[swade-core-rules.swade-hindrances.Loyal]{Loyal} Hindrance to its mistress but isn&rsquo;t a slave. It acts like a typical but very smart version of its species and can occasionally be distracted by its own inherent instincts. A cat might interrupt its task to chase a mouse or take a brief nap and will most likely hide during combat.</p>\n<p>A familiar is a @Compendium[swade-core-rules.swade-rules.Wild Cards and Extras]{Wild Card} with respect to @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wounds} and rolling a Wild Die with its @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Trait rolls}. It doesn&rsquo;t get @Compendium[swade-core-rules.swade-rules.Bennies]{Bennies}, but the witch can spend her own on its behalf.</p>\n<p>The familiar can understand its mistress&rsquo;s speech and vice-versa (others hear only the creature&rsquo;s natural sounds). The bond between the familiar and its mistress makes it immune to the <em>@Compendium[swade-core-rules.swade-powers.Beast Friend]{beast friend}</em> power.</p>\n<p>If a familiar dies, the witch is automatically @Compendium[swade-core-rules.swade-rules.Stunned]{Stunned} (no matter how far away it is). She can summon another after 13 days, and can change the type if she chooses.</p>\n<p>Familiars do not advance as allies. Instead, a familiar has any one of the advantages below for each of the witch&rsquo;s Ranks (including Novice) and for every fourth advance the witch gains past Legendary, gaining them as she advances or starting with them if she must replace a fallen pet. Only increasing a Trait or gaining an Edge may be taken more than once.</p>\n<ul>\n<li>The witch can transfer Wounds and @Compendium[swade-core-rules.swade-rules.Fatigue]{Fatigue} to and from her familiar as a free action.</li>\n<li>The witch can increase one of the familiar&rsquo;s @Compendium[swade-core-rules.swade-rules.Traits]{Traits} one die type. This may only be taken once per Trait.</li>\n<li>Your witch can use the familiar&rsquo;s senses as if they were her own. This requires concentration and the maximum range for this ability is 10 miles.</li>\n<li>The familiar gains an Edge. It must make sense for the familiar&rsquo;s species and meet the Requirements as usual.</li>\n<li>The familiar has 5 Power Points of its own. It cannot cast spells, but the witch can draw on them as if they were her own. They recharge separately and at the same rate as the witch&rsquo;s.</li>\n</ul>\n</div>",
+			"requirements": {
+				"value": "Novice, Arcane Background (Witch), Spellcasting d8+"
+			}
+		},
+		"Fan the Hammer": {
+			"name": "Fan the Hammer",
+			"description": "<div class=\"deadlands-core\">\n<p>Most folks have trouble enough drawing a bead and hitting a target with a single shot. The supremely skilled shootist with this Edge can hit a target while slapping her gun faster than chain lightning with a busted link.</p>\n<p>A gunslinger who wants to &ldquo;fan the hammer&rdquo; holds the trigger of a single-action pistol down while repeatedly slapping the hammer with his other hand. Assuming his six-gun is fully loaded, he may fire up to six shots in a single @Compendium[swade-core-rules.swade-rules.Actions]{action}. Each shot is a @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} die at a &minus;4 Shooting penalty, along with the Wild Die if the shooter is a @Compendium[swade-core-rules.swade-rules.Wild Cards and Extras]{Wild Card}.</p>\n<p>A player character firing all six shots, for example, rolls six Shooting dice and one Wild Die. What you lose in accuracy you (hopefully) make up for by getting lead in the air!</p>\n<p>Just watch who&rsquo;s about when you&rsquo;re fanning the hammer, partner. If your Shooting die comes up 1 or 2, there&rsquo;s a chance you hit an <strong>@Compendium[swade-core-rules.swade-rules.Innocent Bystanders]{Innocent Bystander}</strong> (see <cite>Savage Worlds</cite>).</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Agility d8+, Shooting d8+"
+			}
+		},
+		"Fast as Death": {
+			"name": "Fast as Death",
+			"description": "<div class=\"deadlands-core\">\n<p>Normally, dead bodies don&rsquo;t move very fast. But the Harrowed with this Edge can move with supernatural speed when the need arises. This increases her @Compendium[swade-core-rules.swade-rules.Movement]{Pace} by 3 and her @Compendium[swade-core-rules.swade-rules.Movement]{running die} one step. This stacks with @Compendium[swade-core-rules.swade-edges.Fleet-Footed]{Fleet-Footed} and similar abilities!</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Harrowed"
+			}
+		},
+		"Fast as Lightning": {
+			"name": "Fast as Lightning",
+			"description": "<div class=\"deadlands-core\">\n<p>When your hero reaches for his shootin&rsquo; irons, folks rarely have time to blink, much less draw him down. Some say he&rsquo;s the fastest gun in the West.</p>\n<p>Your hero gets a fourth @Compendium[swade-core-rules.swade-rules.Actions]{action}. This increases the maximum @Compendium[swade-core-rules.swade-rules.Multi-Actions]{Multi-Action penalty} to &minus;6 (which can be reduced by any Edges or abilities that do so, such as @Compendium[swade-core-rules.swade-edges.Two-Fisted]{Two-Fisted}or @Compendium[swade-core-rules.swade-edges.Two-Gun Kid]{Two-Gun Kid}).</p>\n</div>",
+			"requirements": {
+				"value": "Legendary, Agility d10+, Quick"
+			}
+		},
+		"Favored": {
+			"name": "Favored",
+			"description": "<div class=\"deadlands-core\">\n<p>This Edge may only be taken once, and signifies a special relationship between a mambo or houngan and a particular loa. It only benefits those who have the <em>@Compendium[deadlands-core-rules.deadlands-powers.Aspect of the Rada Loa]{aspect of the rada loa} </em>or<em> @Compendium[deadlands-core-rules.deadlands-powers.Fury of the Petro Loa]{fury of the petro loa}</em> spells.</p>\n<p>The hero must plainly and visibly mark his or her allegiance to the chosen loa in some way&mdash;perhaps carrying a pet snake to signify a mambo&rsquo;s &ldquo;marriage&rdquo; to Damballa, wearing black &ldquo;mourning&rdquo; clothes to honor Baron Samedi, and so on.</p>\n<p>As long as this homage is present, either power costs 3 Power Points instead of 5.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Spirit d8+, Arcane Background (Voodooist), Faith d8+"
+			}
+		},
+		"Fetish": {
+			"name": "Fetish",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Novice, @Compendium[deadlands-core-rules.deadlands-edges.Arcane Background (Shaman)]{Arcane Background (Shaman)}, Faith d8+</p>\n<p>Fetishes are devices that help a shaman focus when he must contact the spirit world. It might be a stick figure that represents a favored animal, an icon of nature, or a rattle that helps draw the attention of the distant nature spirits.</p>\n<p>A shaman with a fetish gets one free reroll when she makes a @Compendium[swade-core-rules.swade-skills.Faith]{Faith} roll. Should a fetish be lost or destroyed, the shaman may create a replacement with a one-hour ritual.</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"Flock": {
+			"name": "Flock",
+			"description": "<div class=\"deadlands-core\">\n<p>The greatest prophets and preachers are attended by followers. These men and women have found salvation of one sort or another in the blessed, and devoted their lives to his cause.</p>\n<p>Flock gives your padre five followers who serve at his side in whatever capacity you choose. They have the stats of @Compendium[deadlands-core-rules.deadlands-actors.Townsfolk]{Townsfolk}, though like any other @Compendium[swade-core-rules.swade-rules.Allies]{Allies} they may <strong>@Compendium[swade-core-rules.swade-rules.Advancement]{Advancement}</strong> (see <cite>Savage Worlds</cite>). They come with nothing but the clothes on their back and a few dollars, but can be armed and outfitted however the blessed sees fit.</p>\n<p>Members of the Flock who perish are slowly replaced over time (usually by giving a &ldquo;revival&rdquo;). The Edge may not be taken more than once until the blessed is @Compendium[swade-core-rules.swade-rules.Advancement]{Legendary}. At that point he may take it as many times as he likes (as well as the @Compendium[swade-core-rules.swade-edges.Followers]{Followers Edge}, if he so chooses).</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, Arcane Background (Blessed), Persuasion d8+"
+			}
+		},
+		"Gallows Humor": {
+			"name": "Gallows Humor",
+			"description": "<div class=\"deadlands-core\">\n<p>Some people make jokes about the direst situations. They can stare the Grim Reaper himself in the face, just so long as something about him strikes them as funny. It&rsquo;s a skill that serves anyone well.</p>\n<p>A character with this Edge may use her @Compendium[swade-core-rules.swade-skills.Taunt]{Taunt} skill instead of Spirit when making a @Compendium[swade-core-rules.swade-powers.Fear]{Fear check} (and all the usual modifiers apply as normal). If she gets a raise, she mocks the threat so effectively it acts as +1 @Compendium[swade-core-rules.swade-rules.Support]{Support} for all allies making the same Fear check. Just make sure you roll and resolve your Fear check first, partner!</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Taunt d6+"
+			}
+		},
+		"Ghost": {
+			"name": "Ghost",
+			"description": "<div class=\"deadlands-core\">\n<p>The Harrowed can become incorporeal at will. While ghosted, he&rsquo;s intangible but still visible, and magical attacks affect him normally.</p>\n<p>The deader decides if he&rsquo;s corporeal or incorporeal at the beginning of his turn. This is a @Compendium[swade-core-rules.swade-rules.Actions]{free action}, but he must remain in that state until his next turn.</p>\n<p>The deader is @Compendium[swade-core-rules.swade-rules.Distracted and Vulnerable]{Distracted} as long as he remains in ghost form, but may remain so as long as he wishes. If he&rsquo;s @Compendium[swade-core-rules.swade-rules.Damage Effects]{Shaken}, @Compendium[swade-core-rules.swade-rules.Stunned]{Stunned}, or @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wounded} while incorporeal, he must make a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Spirit roll} or immediately become corporeal.</p>\n</div>",
+			"requirements": {
+				"value": "Heroic, Harrowed"
+			}
+		},
+		"Grit": {
+			"name": "Grit",
+			"description": "<div class=\"deadlands-core\">\n<p>Through perseverance and maybe a little insanity, this hardcase reduces penalties to the @Compendium[swade-core-rules.swade-rules.Fear]{Fear check} by 2. This stacks with @Compendium[swade-core-rules.swade-edges.Brave]{Brave}.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, Spirit d8+, Guts"
+			}
+		},
+		"Guts": {
+			"name": "Guts",
+			"description": "<div class=\"deadlands-core\">\n<p>A hero with this Edge has learned to steel himself against the horrors that stalk the Weird West. He gets a free reroll when making @Compendium[swade-core-rules.swade-rules.Fear]{Fear checks}.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Spirit d6+"
+			}
+		},
+		"Harrowed": {
+			"name": "Harrowed",
+			"description": "<div class=\"deadlands-core\">\n<p>Some gunslingers are just too tough to lie down and stay dead after they&rsquo;ve been killed. The price they pay is an eternal battle for their own soul. If you take this Edge, your character has been reborn into unlife and you can @Compendium[deadlands-core-rules.deadlands-rules.05 Harrowed]{read the grisly details here}.</p>\n<p>The Harrowed Edge may only be selected at character creation. To become Harrowed later requires shedding the mortal coil and a whole lot of luck (the Marshal has information on how this might occur), or by taking the @Compendium[deadlands-core-rules.deadlands-edges.Damned]{Damned Edge} at @Compendium[swade-core-rules.swade-rules.Advancement]{Legendary Rank}.</p>\n<p><strong>Note:</strong> Talk it over with your Marshal before you take this Edge, because it sometimes becomes an involuntary @Compendium[swade-core-rules.swade-rules.Hindrances]{Hindrance} to everyone else in the posse!</p>\n</div>",
+			"requirements": {
+				"value": "Wild Card, Novice, Spirit d6+"
+			}
+		},
+		"Hell Steed": {
+			"name": "Hell Steed",
+			"description": "<div class=\"deadlands-core\">\n<p>God&rsquo;s critters don&rsquo;t take so well to the unholy abominations called the Harrowed. Dogs bark, buzzards circle warily overhead, and horses snort and buck at a would-be rider who stinks of death.</p>\n<img src=\"modules/deadlands-core-rules/assets/art/rearing-horse.webp\" alt=\"Harrowed with glowing eyes and a large rearing horse with glowing eyes behind him.\" />\n<p>But a Hell Steed is a strange kind of horse dredged up from @Compendium[deadlands-core-rules.deadlands-rules.01 The Hunting Grounds]{the Hunting Grounds} by the Harrowed&rsquo;s manitou. When summoned (by taking this Edge), it charges out of some Hell bound portal, snorting fire, eyes blazing, and a cloud of brimstone following in its wake. Within a few minutes the beast comes to terms with the mortal realm and becomes a normal horse&mdash;though one that&rsquo;s clearly fierce and powerful.</p>\n<p>The horse has the usual stats for a @Compendium[swade-core-rules.swade-equipment.War Horse]{War Horse}, is @Compendium[swade-core-rules.swade-rules.Special Ability (Fearless)]{Fearless}, and a @Compendium[swade-core-rules.swade-rules.Wild Cards and Extras]{Wild Card}. The beast is loyal and has sinister intelligence that understands its master&rsquo;s commands (treat its Smarts as human intelligence rather than animal). It&rsquo;s a strange creature, and serves the human as well as his manitou when the demon has control of the host&rsquo;s body.</p>\n<p>If the Hell Steed is ever slain, the Harrowed doesn&rsquo;t automatically get a replacement! He can take the Edge again to summon a new beast, however. A Harrowed can&rsquo;t have more than one Hell Steed at once.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, Harrowed"
+			}
+		},
+		"Hellfire": {
+			"name": "Hellfire",
+			"description": "<div class=\"deadlands-core\">\n<p>Raw, blazing fire blasts straight from the depths of Hell through the Harrowed&rsquo;s fingertips. This takes an @Compendium[swade-core-rules.swade-rules.Actions]{action} but may only be used once per turn. The attack uses the @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} skill and @Compendium[swade-core-rules.swade-rules.Blast Templates]{Cone Template}, and causes 3d6 to those unfortunate enough to be caught in the template. Hellfire may be @Compendium[swade-core-rules.swade-rules.Evasion]{evaded}.</p>\n</div>",
+			"requirements": {
+				"value": "Heroic, Harrowed"
+			}
+		},
+		"Hexslinging": {
+			"name": "Hexslinging",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Seasoned, Arcane Background (Huckster), Shooting d8+</p>\n<p>John Henry &ldquo;Doc&rdquo; Holliday was a huckster who learned the secrets of &ldquo;rune magic,&rdquo; a process the ancient Vikings used to enchant their weapons in days long past. He carved the runes on his favorite six-gun and &ldquo;hexslinging&rdquo; was born.</p>\n<p>Taking a cue from Hoyle, Doc passed those techniques on to his friends in a series of dime novels appropriately called <cite>The Adventures of Doc Holliday</cite>.</p>\n<p>Hexslingers who learn Holliday&rsquo;s secrets gain the <em>@Compendium[deadlands-core-rules.deadlands-powers.Ammo Whammy]{ammo whammy}</em> power and can create their own rune-engraved &ldquo;hex guns.&rdquo; This takes four hours per weapon, most of which is spent inscribing the barrel with various runes. The weapon can be any firearm&mdash;a pistol is common, but nothing stops a hero from making a hex gun out of a @Compendium[deadlands-core-rules.deadlands-equipment.Derringer]{derringer} or even a @Compendium[deadlands-core-rules.deadlands-equipment.Gatling Gun]{Gatling} if she wants!</p>\n<p>Once complete, any hexslinger can use that weapon to cast any of the following powers (assuming they have them) on or with the hex gun without incurring a Multi-Action penalty: <em>@Compendium[deadlands-core-rules.deadlands-powers.Ammo Whammy]{ammo whammy}, @Compendium[deadlands-core-rules.deadlands-powers.Deflection]{deflection}, @Compendium[swade-core-rules.swade-powers.Boost/Lower Trait]{boost Shooting},</em> and <em>@Compendium[swade-core-rules.swade-powers.Protection]{protection}</em>.</p>\n<p>These spells have a @Compendium[swade-core-rules.swade-rules.Powers]{Range} of Self when cast in this way and can&rsquo;t use the @Compendium[swade-core-rules.swade-rules.Power Modifiers]{Additional Recipients modifier} if they have it. Activation causes the runes on the weapon to glow subtly, throw sparks, or some similar effect.</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"High Roller": {
+			"name": "High Roller",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Seasoned, Spirit d8+, @Compendium[deadlands-core-rules.deadlands-edges.Arcane Background (Huckster)]{Arcane Background (Huckster)}, Spellcasting d6+</p>\n<p>Go high or go home. Your hero draws an extra card anytime he @Compendium[deadlands-core-rules.deadlands-rules.06 Hucksters]{Deals with the Devil}.</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"Implacable": {
+			"name": "Implacable",
+			"description": "<div class=\"deadlands-core\">\n<p>Deaders are a tough and ornery lot fueled by the infernal power of demons. Eventually, some of &rsquo;em can take a hit that&rsquo;d drop any normal hombre.</p>\n<p>A deader with this Edge can take an extra @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wound} before she&rsquo;s @Compendium[swade-core-rules.swade-rules.Damage Effects]{Incapacitated}. This stacks with the @Compendium[swade-core-rules.swade-edges.Tough As Nails]{Tough as Nails} and @Compendium[swade-core-rules.swade-edges.Tougher Than Nails]{Tougher than Nails} Edges, and her maximum @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wound penalties} are still limited to &minus;3.</p>\n</div>",
+			"requirements": {
+				"value": "Heroic, Harrowed"
+			}
+		},
+		"Improved Cat Eyes": {
+			"name": "Improved Cat Eyes",
+			"description": "<div class=\"deadlands-core\">\n<p>The hero can see perfectly in the dark and ignores all penalties for @Compendium[swade-core-rules.swade-rules.Illumination]{lighting}.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Cat Eyes, Harrowed"
+			}
+		},
+		"Improved Claws": {
+			"name": "Improved Claws",
+			"description": "<div class=\"deadlands-core\">\n<p>The Claws now inflict Str+d8 damage, @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{AP} 2.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, Claws, Harrowed"
+			}
+		},
+		"Improved Fan the Hammer": {
+			"name": "Improved Fan the Hammer",
+			"description": "<div class=\"deadlands-core\">\n<p>As @Compendium[deadlands-core-rules.deadlands-edges.Fan the Hammer]{Fan the Hammer}, but each shot suffers a &minus;2 @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} penalty.</p>\n</div>",
+			"requirements": {
+				"value": "Heroic, Agility d10+, Fan the Hammer, Shooting d10+"
+			}
+		},
+		"Improved High Roller": {
+			"name": "Improved High Roller",
+			"description": "<div class=\"deadlands-core\">\n<p>Your inveterate gambler draws two extra cards (total) when @Compendium[deadlands-core-rules.deadlands-rules.06 Hucksters]{Dealing with the Devil}.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, High Roller"
+			}
+		},
+		"Improved Stitchin'": {
+			"name": "Improved Stitchin'",
+			"description": "<div class=\"deadlands-core\">\n<p>As @Compendium[deadlands-core-rules.deadlands-edges.Stitchin']{Stitchin'}, but the deader rolls every hour.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, Harrowed, Stitchin’"
+			}
+		},
+		"Improved Trackin' Teeth": {
+			"name": "Improved Trackin' Teeth",
+			"description": "<div class=\"deadlands-core\">\n<p>The dead tend to lose body parts here and there. Those with this Edge can keep track of those parts, whether they&rsquo;re attached to the rest of his cadaver or not!</p>\n<p>Trackin&rsquo; Teeth is a bit of a misnomer as it actually applies to any part of the deader&rsquo;s body, but this is what Coot Jenkins called it and the name stuck.</p>\n<p>A clever Harrowed can learn to use it to not only keep track of his parts, but his enemies&rsquo; whereabouts as well. He need simply plant a substantial piece of himself in or on a thing or person. By &ldquo;substantial&rdquo; we mean a piece of durable body matter such as a chunk of bone or tooth, not something comparatively insubstantial or perishable, like hair or a scrap of rotten flesh. The most accessible parts of a Harrowed are teeth&mdash;hence the Edge&rsquo;s name.</p>\n<p>As long as the Harrowed&rsquo;s piece&mdash;tooth or otherwise&mdash;is within 100 miles, she can automatically sense its direction and approximate distance. If the piece moves out of range, the Harrowed loses track of it, but she picks it up if it comes back in range again.</p>\n</div>",
+			"requirements": {
+				"value": "Heroic, Harrowed"
+			}
+		},
+		"Infest": {
+			"name": "Infest",
+			"description": "<div class=\"deadlands-core\">\n<p>Like many aspects of nature, insects have spiritual counterparts in the Hunting Grounds. Manitous have a knack for controlling creepy-crawlies, and some pass this along to their hosts. A character with this icky ability can control swarms of biting or stinging insects.</p>\n<p>Infest doesn&rsquo;t give the Harrowed the ability to actually create bugs or summon them from great distances. They must already be present in the immediate vicinity (Marshal&rsquo;s call), but the deader&rsquo;s swarm doesn&rsquo;t have to be composed of a single species. To summon the swarm, she uses an @Compendium[swade-core-rules.swade-rules.Actions]{action} and spends a @Compendium[swade-core-rules.swade-rules.Bennies]{Benny} to call forth a mass of spiders, roaches, and millipedes into one wriggling, biting, unholy horde.</p>\n<p>The Harrowed controls the swarm until it dissipates&mdash;when destroyed or after about five minutes. See @Compendium[swade-core-rules.swade-bestiary.Swarm]{Swarm} for the critters&rsquo; statistics and Special Abilities.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Harrowed"
+			}
+		},
+		"Iron Bound": {
+			"name": "Iron Bound",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Novice, @Compendium[deadlands-core-rules.deadlands-edges.Arcane Background (Mad Scientist)]{Arcane Background (Mad Scientist)}</p>\n<p>Everyone has to learn their trade somewhere. Your mad scientist apprenticed to a master craftsman, or worked in a Hellstromme Industries factory, Smith &amp; Robards workshop, or even one of the secret facilities belonging to the government. The alumni of these difficult and ground-breaking trials in the New Science are said to be &ldquo;Iron Bound.&rdquo;</p>\n<p>Your hero managed to leave his former employment with some of the equipment he worked on, and still has a few friends who can cut him a special deal when he&rsquo;s in a pinch. The mad scientist starts with up to $2,000 in @Compendium[deadlands-core-rules.deadlands-rules.09 Infernal Devices]{infernal devices} or @Compendium[deadlands-core-rules.deadlands-rules.09 Infernal Devices]{vehicles}, and reduces the listed price of any future devices purchased through that source by 25%. He might be able to get discounts through other outlets by reciting some of his <em>bona fides</em> and sharing experiences with other inventors (Marshal&rsquo;s call).</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"Knack": {
+			"name": "Knack",
+			"description": "<div class=\"deadlands-core\">\n<p>This Edge should only be taken during character creation, unless there&rsquo;s a good reason for the hero to &ldquo;discover&rdquo; his latent powers at a later date.</p>\n<p>The Weird West is a superstitious place, where rumors and old wives&rsquo; tales abound. Occasionally, these folktales contain a germ of truth. A Knack is just that&mdash;folklore come true.</p>\n<p>Now you get to choose one of the special events that coincided with the time of your character&rsquo;s birth.</p>\n<p><strong>Bastard:</strong> Well, that&rsquo;s what your hero is. Not the mean ornery kind, but the fatherless kind. A child born out of wedlock is said to be able to see the unseen. Spend a @Compendium[swade-core-rules.swade-rules.Bennies]{Benny} to automatically be able to see invisible and hidden critters, or those that supernaturally blend in with their surroundings, for five rounds.</p>\n<p><strong>Born on All Hallows&rsquo; Eve:</strong> They say those born on this day have a greater connection to the spirit world. They occasionally receive warnings if their actions are about to cause disastrous consequences. A hero who was Born on All Hallows&rsquo; Eve can spend @Compendium[swade-core-rules.swade-rules.Conviction]{Conviction} to reroll a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure}.</p>\n<p><strong>Born on Christmas:</strong> A babe born on Christmas is particularly resistant to arcane effects powered by evil spirits. Only heroes with the @Compendium[deadlands-core-rules.deadlands-edges.Arcane Background (Blessed)]{Blessed} or @Compendium[deadlands-core-rules.deadlands-edges.Arcane Background (Shaman)]{Shaman} Arcane Background can take this Knack. If you wanted to take a different @Compendium[swade-core-rules.swade-rules.Arcane Backgrounds]{Arcane Background}, this isn&rsquo;t the Knack for you.</p>\n<p>When targeted by a power from any other @Compendium[swade-core-rules.swade-rules.Arcane Backgrounds]{Arcane Background}, a hero with this Knack can spend a @Compendium[swade-core-rules.swade-rules.Bennies]{Benny} to negate the effect and force the caster to make a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Spirit roll} (&minus;4) or be @Compendium[swade-core-rules.swade-rules.Damage Effects]{Shaken}.</p>\n<p><strong>Breech Birth:</strong> A baby born butt-first is said to have the uncanny ability to heal injuries. Your hero is just such a person and can spend a @Compendium[swade-core-rules.swade-rules.Bennies]{Benny} to use the <em>@Compendium[swade-core-rules.swade-powers.Healing]{healing}</em> power. He doesn&rsquo;t need to roll and automatically gets a single success (thus <em>healing</em> one @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wound}).</p>\n<p><strong>Seventh Son:</strong> Your hero is fated for greatness; his legend will loom large in the Weird West. This hombre has the ability to control fate. Any time a @Compendium[swade-core-rules.swade-rules.Bennies]{Benny} is used in his presence, he can spend a Benny of his own to negate its effect.</p>\n<p><strong>Shooting Star:</strong> A shooting star or comet lit up the sky at the time of your hero&rsquo;s birth, and many believe it foretold his skills as a great leader. At the beginning of any @Compendium[swade-core-rules.swade-rules.Combat]{combat}, you may spend a @Compendium[swade-core-rules.swade-rules.Bennies]{Benny} to double the character&rsquo;s @Compendium[swade-core-rules.swade-edges.Command]{Command Range}. This increased range lasts until the end of the encounter.</p>\n<p><strong>Storm Born:</strong> Your character was born in the midst of a great storm. Among her people, it&rsquo;s said fear has no power over her. When you spend a @Compendium[swade-core-rules.swade-rules.Bennies]{Benny} to reroll a @Compendium[swade-core-rules.swade-rules.Fear]{Fear check}, you ignore all Fear penalties, both from the critter and the local Fear Level.</p>\n</div>",
+			"requirements": {
+				"value": "Novice"
+			}
+		},
+		"Like an Oak": {
+			"name": "Like an Oak",
+			"description": "<div class=\"deadlands-core\">\n<p>Few things settle the nerves of a posse like the sight of a Ranger standing toe-to-toe with some horrific abomination.</p>\n<p>All allies within 12\" of the Ranger negate up 2 points of Fear penalties when making a @Compendium[swade-core-rules.swade-rules.Fear]{Fear check}. If the Ranger fails his Fear check or is @Compendium[swade-core-rules.swade-rules.Damage Effects]{Shaken} or @Compendium[swade-core-rules.swade-rules.Stunned]{Stunned}, the allies do not get the benefit. If a group makes the check at the same time, the Ranger goes first.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, Grit, Territorial Ranger"
+			}
+		},
+		"Man of a Thousand Faces": {
+			"name": "Man of a Thousand Faces",
+			"description": "<div class=\"deadlands-core\">\n<p>This Edge helps Agents infiltrate their foes, given some supplies and the ability to study the enemy. The Agent adds +2 to his @Compendium[swade-core-rules.swade-skills.Performance]{Performance} rolls when trying to impersonate a general &ldquo;type&rdquo; of roughly similar build. There&rsquo;s a &minus;2 penalty for impersonating someone the target has heard of, a &minus;4 for someone the target has seen before, or &minus;6 for a specific individual or someone the target is familiar with. Use of this Edge requires clothing appropriate for the role. A @Compendium[deadlands-core-rules.deadlands-equipment.Disguise kit]{disguise kit} removes 2 points of penalties.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Agent, Performance d8+"
+			}
+		},
+		"Metal Mage": {
+			"name": "Metal Mage",
+			"description": "<div class=\"deadlands-core\">\n<p>Metal mages use devices like any other weird scientist, but can also <strong>Deal with the Devil </strong>(see <cite>@Compendium[deadlands-core-rules.deadlands-rules.06 Hucksters]{Deadlands}</cite>) like a huckster!</p>\n<p>This allows them to cast any power available to mad scientists, even those they don&rsquo;t have or that are above their Rank, and perhaps even get enough energy directly from @Compendium[deadlands-core-rules.deadlands-rules.01 The Hunting Grounds]{the Hunting Grounds} to power it.</p>\n<p>The process is similar to that of hucksters but with a few key differences&mdash;see the section later on this page for all the details and differences.</p>\n<p>It&rsquo;s quite a spectacular show when a metal mage successfully Deals with the Devil! Metal bits swirl about the scientist, either appearing from thin air or levitating from whatever crates, bins, or toolkits are within a few feet of him. Unseen hands assemble the bits into a Hellish device or effect, twisting, shaping, turning and smashing pieces together in a storm of hot wind that smells of brimstone and madness. And if one looks closely, he just might see a demonic face howling with glee in the middle of the swirling metal maelstrom!</p>\n<p>There&rsquo;s no denying something supernatural is happening when a metal mage deals with the Devil. Anyone who sees the event knows deviltry is afoot. Metal mages only resort to this measure as an absolute last resort when strangers are about.</p>\n<p>The devilish devices created in this way last as long as the power itself lasts, then collapse into a pile of their component parts&mdash;often burning hot or icy cold from the touch of the demonic forces that assembled them.</p>\n<p>See <cite>@Compendium[deadlands-core-rules.deadlands-rules.06 Hucksters]{Deadlands: The Weird West}</cite> for the <strong>Dealing with the Devil </strong>table, and the section on the next page for the process.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Arcane Background (Mad Scientist), Occult d6+, Weird Science d8+"
+			}
+		},
+		"Mimic": {
+			"name": "Mimic",
+			"description": "<div class=\"deadlands-core\">\n<p>Great supernatural power springs from the @Compendium[deadlands-core-rules.deadlands-rules.01 The Hunting Grounds]{Hunting Grounds} in one form or another. Sometimes a Harrowed attuned to that power can decipher it and wrestle it away for herself.</p>\n<p>When any power that uses the @Compendium[swade-core-rules.swade-skills.Spellcasting]{Spellcasting} skill is used in sight of the Harrowed, she gains the ability to cast it herself. She may only do this once, and it must be within the same encounter she saw it used.</p>\n<p>The Harrowed uses Spellcasting to cast the spell if she has that skill, or Smarts if she doesn&rsquo;t.</p>\n<p>Any Power Points or Modifiers must be identical. If a cultist casts a 3d6 black magic <em>@Compendium[swade-core-rules.swade-powers.Bolt]{bolt}</em> with AP <em>2</em> for four Power Points, the Harrowed may do exactly the same. A @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} means the Harrowed is @Compendium[swade-core-rules.swade-rules.Fatigue]{Fatigued} and all currently maintained powers (if any) terminate.</p>\n</div>",
+			"requirements": {
+				"value": "Legendary, Harrowed"
+			}
+		},
+		"Nightmares": {
+			"name": "Nightmares",
+			"description": "<div class=\"deadlands-core\">\n<p>One of the manitous&rsquo; duties in the spirit world is to torment dreamers. A Harrowed whose brain-worm gives him this power can share his misery, giving other living minds dark and terrible dreams.</p>\n<p>The Harrowed needs something from the target to inflict nightmares on her&mdash;it could be something of her body, like a hair, fingernail clipping, or blood stain; or it could be an item of some significance to her, such as a piece of jewelry, her firearm, or even her trusty horse.</p>\n<p>The deader then simply decides if he wants his manitou to torment the target each night. If so, she has the @Compendium[deadlands-core-rules.deadlands-hindrances.Night Terrors]{Night Terrors} Hindrance for as long as the Harrowed wants to torment her.</p>\n<p>A victim can rid herself of the nightmares by killing the Harrowed or sleeping on sanctified ground. <em>@Compendium[swade-core-rules.swade-powers.Dispel]{Dispel}</em> has no effect, but <em>@Compendium[swade-core-rules.swade-powers.Detect/Conceal Arcana]{detect arcana}</em> senses an evil presence on the victim when she&rsquo;s being tormented. With a raise, <em>detect arcana</em> also gives an impression of the Harrowed himself, perhaps a stench, a memory of when the item was taken, or his dead eyes.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, Harrowed"
+			}
+		},
+		"Old Hand": {
+			"name": "Old Hand",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Heroic, @Compendium[deadlands-core-rules.deadlands-edges.Arcane Background (Huckster)]{Arcane Background (Huckster)}, Spellcasting d10+</p>\n<p>With knowledge comes power, and this huckster knows when to say when. After you form a five-card poker hand when @Compendium[deadlands-core-rules.deadlands-rules.06 Hucksters]{Dealing with the Devil}, you can discard up to three cards and redraw!</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"Ore Eater": {
+			"name": "Ore Eater",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Novice, @Compendium[deadlands-core-rules.deadlands-actors.Mad Scientist]{Mad Scientist}, Weird Science d6+</p>\n<p>Though your mad scientist probably doesn&rsquo;t want anyone to know it, he&rsquo;s developed a taste for @Compendium[deadlands-core-rules.deadlands-rules.05 Ghost Rock]{ghost rock}! Eating it raw isn&rsquo;t really possible&mdash;it&rsquo;s rock, after all&mdash;but it&rsquo;s easy to powder or crush and sprinkle it into his favorite whiskey or spread it like salt over his vittles!</p>\n<p>This is obviously a dangerous practice, but greatly increases the Weird Scientist&rsquo;s connection to the @Compendium[deadlands-core-rules.deadlands-rules.01 The Reckoning]{Hunting Grounds}. He gains 5 Power Points when this Edge is taken (in addition to any gained from the @Compendium[swade-core-rules.swade-edges.Power Points]{Power Points Edge}).</p>\n<p>The downside is that anytime he must roll on the <strong>@Compendium[deadlands-core-rules.deadlands-tables.Malfunction Table]{Malfunction Table}</strong> and rolls a 13, he gets ghost rock fever instead of the Gremlin result! He can only contract the fever once, and must live or die by the rules set forth under @Compendium[deadlands-core-rules.deadlands-rules.05 Ghost Rock Rules]{Ghost Rock Fever}.</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"Possession": {
+			"name": "Possession",
+			"description": "<div class=\"deadlands-core\">\n<p>If a manitou&rsquo;s good at anything, it&rsquo;s taking control of someone else&rsquo;s body. This power grants the Harrowed a limited ability to do the same.</p>\n<p>Controlling someone works exactly like the <em>@Compendium[swade-core-rules.swade-powers.Puppet]{puppet}</em> power in <cite>Savage Worlds</cite>, but the Harrowed uses his Spirit &minus;2 for the arcane skill roll.</p>\n<p>The deader is @Compendium[swade-core-rules.swade-rules.Distracted and Vulnerable]{Distracted} for as long as he maintains control. He may maintain the power as long as he wants, but remains Distracted while doing so (he may not use Power Points even if he has them). If he&rsquo;s @Compendium[swade-core-rules.swade-rules.Damage Effects]{Shaken}, @Compendium[swade-core-rules.swade-rules.Stunned]{Stunned}, or @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wounded}, he must make a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Smarts roll} or the power terminates as well.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, Harrowed"
+			}
+		},
+		"Quick Draw": {
+			"name": "Quick Draw",
+			"description": "<div class=\"deadlands-core\">\n<p>You draw two cards when spending a @Compendium[swade-core-rules.swade-rules.Bennies]{Benny} for an additional @Compendium[swade-core-rules.swade-rules.Action Cards (Initiative)]{Action Card} at the beginning of a round. You may choose your final Action Card from any of your available choices, including additional draws from @Compendium[swade-core-rules.swade-edges.Level Headed]{Level Headed}, @Compendium[swade-core-rules.swade-edges.Quick]{Quick}, etc.</p>\n<p>You also add +2 to @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} rolls made to @Compendium[swade-core-rules.swade-rules.Hold]{interrupt} others&rsquo; actions (including resisting being interrupted).</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Agility d8+"
+			}
+		},
+		"Ranger Promotion": {
+			"name": "Ranger Promotion",
+			"description": "<div class=\"deadlands-core\">\n<p>Your Ranger&rsquo;s been promoted to Sergeant. He gets a slight increase in pay, a @Compendium[deadlands-core-rules.deadlands-equipment.Gatling Shotgun]{Gatling shotgun} or @Compendium[deadlands-core-rules.deadlands-equipment.Gatling Rifle]{rifle} if he likes, and he can request higher @Compendium[deadlands-core-rules.deadlands-rules.09 Territorial Rangers]{Favors}.</p>\n<p>You can take this Edge a second time for a promotion to Lieutenant. This grants him @Compendium[deadlands-core-rules.deadlands-rules.09 Territorial Rangers]{Chapter 13} of <em>Fugitives from Justice</em> as well as a little extra dinero and the ability to request greater @Compendium[deadlands-core-rules.deadlands-rules.09 Territorial Rangers]{Favors}.</p>\n<p>At Heroic Rank, a Ranger can take this Edge one last time to gain promotion to Captain, granting him access to 4-point @Compendium[deadlands-core-rules.deadlands-rules.09 Territorial Rangers]{Favors}.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Territorial Ranger"
+			}
+		},
+		"Reputation": {
+			"name": "Reputation",
+			"description": "<div class=\"deadlands-core\">\n<p>Whether this character is branded hero or villain, he has earned a Reputation across the Weird West. Decide whether your hero&rsquo;s rep is good or bad. With a good Reputation, the celebrity gets a free reroll on @Compendium[swade-core-rules.swade-skills.Persuasion]{Persuasion} rolls with anyone who&rsquo;s heard stories about him. If an outlaw&rsquo;s rep is negative, he adds +2 to @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation} rolls among those in the know.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran"
+			}
+		},
+		"Right Hand of the Devil": {
+			"name": "Right Hand of the Devil",
+			"description": "<div class=\"deadlands-core\">\n<p>Your hero is fast on the trigger and renowned far and wide as one mean hombre. Folks have taken to calling him the Right Hand of the Devil (or Left if your cowpoke is of the sinister rather than dexter persuasion).</p>\n<p>Whichever weapon your shootist typically uses in his favored hand has been infused with some of the mythic status he&rsquo;s accorded, turning that weapon into a powerful relic. A relic weapon does an extra damage die of the same type as that weapon&rsquo;s highest damage die. So a relic Colt revolving rifle would do a fearsome 3d8 damage. A hero usually dresses it up a bit with a silver filigree, pearl handles, and the like. It&rsquo;s not a requirement, but most legends are partial to such decor.</p>\n<p>The Edge remains with the weapon, so if your shootist loses his gun, he loses the Edge as well&mdash;at least until he can get it back. And yes, anyone else who finds it in the meantime gets its benefits!</p>\n</div>",
+			"requirements": {
+				"value": "Legendary, Trademark Weapon, Shooting, Fighting, or Athletics d10+"
+			}
+		},
+		"Rigor Mortis": {
+			"name": "Rigor Mortis",
+			"description": "<div class=\"deadlands-core\">\n<p>A deader uses this power to inflict terrible pain on everyone who gets too close to his cadaverous corpse.</p>\n<p>Activating Rigor Mortis is a free action that creates a field of agony the size of a Medium Blast Template centered on the Harrowed. Everyone who enters the template (friend and foe alike) is wracked with pain and stiffness and @Compendium[swade-core-rules.swade-rules.Distracted and Vulnerable]{Distracted}. The condition terminates at the end of a victim&rsquo;s turn if he&rsquo;s no longer in the area of effect.</p>\n<p>Rigor Mortis can be maintained as long as the Harrowed desires, but terminates if he doesn&rsquo;t make a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Smarts} roll when @Compendium[swade-core-rules.swade-rules.Damage Effects]{Shaken}, @Compendium[swade-core-rules.swade-rules.Stunned]{Stunned}, or Wounded.</p>\n</div>",
+			"requirements": {
+				"value": "Heroic, Harrowed"
+			}
+		},
+		"Scout": {
+			"name": "Scout",
+			"description": "<div class=\"deadlands-core\">\n<p>Scouts are masters of navigating the West&rsquo;s vast wilderness. When the Marshal draws a face card while the posse is traveling&mdash;indicating an encounter&mdash;the Scout can make a @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll at &minus;2 to detect the hazard, critter, or event first. Scouts are always considered alert for Notice rolls versus @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth}, ignore up to 2 points of penalties on @Compendium[swade-core-rules.swade-skills.Survival]{Survival} rolls to track, and on a raise gain more specific information about what they&rsquo;re following. They also add +2 to @Compendium[swade-core-rules.swade-skills.Common Knowledge]{Common Knowledge} rolls to recall information about towns, outposts, landmarks and watering holes, people, or tribes along a particular route they&rsquo;ve traveled before.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Woodsman"
+			}
+		},
+		"Silent as a Corpse": {
+			"name": "Silent as a Corpse",
+			"description": "<div class=\"deadlands-core\">\n<p>As long as this deader&rsquo;s feet are in contact with dirt, he can move without making a sound (even if he&rsquo;s wearing boots). He adds +4 to @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth} where sound is the primary factor in detection.</p>\n<p>In the Weird West, most everything that&rsquo;s not actually inside a building is dirt. Even the interiors to some buildings have dirt floors, such as barns, stables, poor farmsteads, and the like.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Harrowed, Stealth d8+"
+			}
+		},
+		"Sleep o' the Dead": {
+			"name": "Sleep o' the Dead",
+			"description": "<div class=\"deadlands-core\">\n<p>Manitous have something of a talent for getting mortals to sleep. Harrowed with this Edge can tap into the manitous&rsquo; abilities to send a victim straight to the Land o&rsquo; Nod with a single touch. Even other Harrowed are affected. This works much like the <em>@Compendium[swade-core-rules.swade-powers.Slumber]{slumber}</em> power (see <cite>Savage Worlds</cite>), except it costs no Power Points, has a Range of Touch, and is enacted with an opposed @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Spirit roll} against the target as an action. If the Harrowed wins the opposed Spirit roll, the target falls asleep for one minute, or 1d6 hours with a raise. It can&rsquo;t be maintained.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Harrowed"
+			}
+		},
+		"Soldier": {
+			"name": "Soldato",
+			"description": "<div class=\"deadlands-core\">\n<p>This Edge works as described in <cite>Savage Worlds</cite>, and means the character served in the military.</p>\n<p>If the hero still serves in the military, he&rsquo;s a Private, gains the @Compendium[swade-core-rules.swade-hindrances.Obligation]{Obligation (Minor) Hindrance}, and is paid monthly (if he can get to it!). He&rsquo;s expected to do what he&rsquo;s told and to put the lives of others before his own. Not all soldiers uphold that principle, but they take the oath when they put on the uniform.</p>\n<p>Soldiers may be demoted if they perform poorly, abandon their post, show cowardice in the face of the enemy, disobey orders, or otherwise shirk the code of military conduct. Demotions are entirely up to the Marshal.</p>\n<aside class=\"sidebar float-left\">\n<h1>US Army Ranks</h1>\n<table>\n<tbody>\n<tr class=\"odd\">\n<th class=\"centered\" colspan=\"3\">\n<h2>Enlisted</h2>\n</th>\n</tr>\n<tr class=\"even\">\n<th class=\"left\">Rank</th>\n<th class=\"centered\">Command</th>\n<th class=\"centered\">Pay</th>\n</tr>\n<tr class=\"odd\">\n<td>Private</td>\n<td class=\"centered\">&mdash;</td>\n<td class=\"centered\">$20</td>\n</tr>\n<tr class=\"even\">\n<td>Corporal</td>\n<td class=\"centered\">&mdash;</td>\n<td class=\"centered\">$25</td>\n</tr>\n<tr class=\"odd\">\n<th class=\"centered\" colspan=\"3\">\n<h2>Non-Commissioned Officers</h2>\n</th>\n</tr>\n<tr class=\"odd\">\n<th class=\"left\">Rank</th>\n<th class=\"centered\">Command</th>\n<th class=\"centered\">Pay</th>\n</tr>\n<tr class=\"even\">\n<td>Sergeant</td>\n<td class=\"centered\">Squad</td>\n<td class=\"centered\">$30</td>\n</tr>\n<tr class=\"odd\">\n<td>Ordnance Sergeant</td>\n<td class=\"centered\">Squad</td>\n<td class=\"centered\">$50</td>\n</tr>\n<tr class=\"even\">\n<td>Quartermaster Sergeant</td>\n<td class=\"centered\">Platoon</td>\n<td class=\"centered\">$65</td>\n</tr>\n<tr class=\"odd\">\n<td>Sergeant Major</td>\n<td class=\"centered\">Company</td>\n<td class=\"centered\">$80</td>\n</tr>\n<tr class=\"even\">\n<th class=\"centered\" colspan=\"3\">\n<h2>Officers</h2>\n</th>\n</tr>\n<tr class=\"odd\">\n<th class=\"left\">Rank</th>\n<th class=\"centered\">Command</th>\n<th class=\"centered\">Pay</th>\n</tr>\n<tr class=\"even\">\n<td>2nd Lieutenant</td>\n<td class=\"centered\">Platoon</td>\n<td class=\"centered\">$30</td>\n</tr>\n<tr class=\"odd\">\n<td>1st Lieutenant</td>\n<td class=\"centered\">Platoon</td>\n<td class=\"centered\">$40</td>\n</tr>\n<tr class=\"even\">\n<td>Captain</td>\n<td class=\"centered\">Company</td>\n<td class=\"centered\">$50</td>\n</tr>\n<tr class=\"odd\">\n<td>Major</td>\n<td class=\"centered\">Company</td>\n<td class=\"centered\">$75</td>\n</tr>\n<tr class=\"even\">\n<td>Lieutenant Colonel</td>\n<td class=\"centered\">Battalion</td>\n<td class=\"centered\">$100</td>\n</tr>\n<tr class=\"odd\">\n<td>Colonel</td>\n<td class=\"centered\">Regiment</td>\n<td class=\"centered\">$120</td>\n</tr>\n<tr class=\"even\">\n<td>Brigadier General</td>\n<td class=\"centered\">Brigade</td>\n<td class=\"centered\">$200</td>\n</tr>\n<tr class=\"odd\">\n<td>Major General</td>\n<td class=\"centered\">Division</td>\n<td class=\"centered\">$400</td>\n</tr>\n<tr class=\"even\">\n<td>Lieutenant General</td>\n<td class=\"centered\">Corps</td>\n<td class=\"centered\">$800</td>\n</tr>\n<tr class=\"odd\">\n<td>General</td>\n<td class=\"centered\">Army</td>\n<td class=\"centered\">$1,600</td>\n</tr>\n</tbody>\n</table>\n</aside>\n<p><strong>Rank:</strong> A hero can start as a Sergeant or 2nd Lieutenant, but his @Compendium[swade-core-rules.swade-hindrances.Obligation]{Obligation} becomes Major, and he&rsquo;s expected to carry out more difficult tasks lesser ranks might retreat from. Officers attend one of several military training academies and must have @Compendium[swade-core-rules.swade-skills.Academics]{Academics} and @Compendium[swade-core-rules.swade-skills.Battle]{Battle} at d6+. The @Compendium[swade-core-rules.swade-edges.Command]{Command Edge} isn&rsquo;t a requirement for either, but highly recommended for both.</p>\n<p>In <cite>Deadlands</cite>, it&rsquo;s expected soldiers are assigned to the posse for extra firepower, leadership, or expertise. They aren&rsquo;t expected to bring their troops with them, but in times of extreme urgency the Marshal may allow them to request such resources from their superiors.</p>\n<p><strong>Promotion:</strong> Regardless of starting rank, an active duty character with the Soldier Edge may spend an @Compendium[swade-core-rules.swade-rules.Advancement]{Advance} for a promotion to his next rank. He may do this no more than three times, and no more than once per character @Compendium[swade-core-rules.swade-rules.Advancement]{Rank} (not military rank).</p>\n<p>Higher ranks are possible, but generally outside the scope of normal play.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Strength d6+, Vigor d6+"
+			}
+		},
+		"Soul Eater": {
+			"name": "Soul Eater",
+			"description": "<div class=\"deadlands-core\">\n<p>Nothing about the Harrowed is pleasant. If they aren&rsquo;t eating something&rsquo;s flesh, preferably raw and wiggling, the demon inside often goes for raw life force instead.</p>\n<p>If the Harrowed causes a @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wound} or more with a successful barehanded @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} attack (including @Compendium[deadlands-core-rules.deadlands-edges.Claws]{Claws} if he has them), he may make a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Spirit roll} at &minus;2 immediately afterward as a @Compendium[swade-core-rules.swade-rules.Actions]{free action}. If successful, he may heal one of his own Wounds (or a level of @Compendium[swade-core-rules.swade-rules.Fatigue]{Fatigue}, as he chooses). Inflicting multiple Wounds has no additional effect.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, Harrowed"
+			}
+		},
+		"Speak with the Dead": {
+			"name": "Speak with the Dead",
+			"description": "<div class=\"deadlands-core\">\n<p>After death, a soul remains somewhat tethered to his remains for a while. It decays over a few months, the spiritual connection fading along with the flesh it once occupied.</p>\n<p>Harrowed with this power can tap into those connections to call forth a cadaver&rsquo;s spirit and speak to it. The body&rsquo;s soul is distant and confused when summoned back to speak with the Harrowed. Its mortal memories are vague and difficult to recollect. It may have a crystal clear memory of a clear summer day it spent swimming in a creek in his youth but can&rsquo;t seem to recall which of his &ldquo;friends&rdquo; murdered him. (That means the Marshal has full control on what information the posse gets, which should be helpful but rarely give away the mystery of a good adventure!)</p>\n<p>Contact requires touch and the corpse can&rsquo;t have been dead longer than the Harrowed&rsquo;s Smarts die in months. Once contact is initiated, the Marshal rolls a d6. On a 2&ndash;6, the spirit is dragged forth and answers a few questions before it&rsquo;s pulled back into the @Compendium[deadlands-core-rules.deadlands-rules.01 The Hunting Grounds]{Hunting Grounds} and can&rsquo;t be summoned again until the next full moon. On a 1, a manitou responds instead, pretending to be the corpse&rsquo;s spirit, and causes as much mischief as possible!</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Harrowed"
+			}
+		},
+		"Spider": {
+			"name": "Spider",
+			"description": "<div class=\"deadlands-core\">\n<p>In a world filled with terrors and abominations, there are few things creepier than watching a Harrowed scuttle up the side of a wall.</p>\n<p>That&rsquo;s exactly what this Edge does&mdash;it grants the hero the ability to walk on vertical surfaces at his regular @Compendium[swade-core-rules.swade-rules.Movement]{Pace}. He can even cling to inverted surfaces at half Pace (and he may not @Compendium[swade-core-rules.swade-rules.Movement]{run} on inverted surfaces).</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Harrowed"
+			}
+		},
+		"Spirit Sight": {
+			"name": "Spirit Sight",
+			"description": "<div class=\"deadlands-core\">\n<p>As any deader knows, all that power and locomotion is due to a demon squatting inside what&rsquo;s left of his moldering corpse. Spirit Sight allows the Harrowed to tap into the manitou&rsquo;s mind for a change, and take a quick gander into the spirit world. (A version of the ability is now a modifier to <em>@Compendium[deadlands-core-rules.deadlands-powers.Detect/Conceal Arcana]{detect arcana}</em>, too; see @Compendium[deadlands-core-rules.deadlands-rules.02 Spirits]{New Power Option} profile)</p>\n<p>Activating Spirit Sight is a free action (but can only be done once per turn if the game is in rounds). This is disorientating so he&rsquo;s @Compendium[swade-core-rules.swade-rules.Distracted and Vulnerable]{Distracted} until the end of turn after he drops the Spirit Sight.</p>\n<p>While peering into @Compendium[deadlands-core-rules.deadlands-rules.01 The Hunting Grounds]{the Hunting Grounds}, the Harrowed can view such things as manitous swirling around a huckster or lurking inside the corpse of a walking dead, how twisted an area is (its @Compendium[deadlands-core-rules.deadlands-rules.04 Fear]{Fear Level}), magical effects on people or objects, or even whether or not a manitou is wriggling around inside of someone. In the latter case, the manitou&rsquo;s demeanor might even indicate whether it currently controls its Harrowed host.</p>\n<p>This might allow the deader to notice an invisible creature if it has a spirit (and is thus visible in the spirit world), but doesn&rsquo;t negate any penalties to affect it.</p>\n<p>Additionally, any creature with the @Compendium[swade-core-rules.swade-rules.Special Ability (Fear)]{Fear Special Ability} leaves a dark trail through the spirit world. Up to one hour after an abomination has moved through an area, it leaves a faintly glowing spoor of pure evil. A Harrowed with Spirit Sight can use @Compendium[swade-core-rules.swade-skills.Notice]{Notice} (not @Compendium[swade-core-rules.swade-skills.Survival]{Survival} in this case) to follow the tainted trail.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Harrowed"
+			}
+		},
+		"Spirit's Favor": {
+			"name": "Spirit's Favor",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Seasoned, @Compendium[deadlands-core-rules.deadlands-edges.Arcane Background (Shaman)]{Arcane Background (Shaman)}, Faith d8+</p>\n<p>The shaman has gained the favor of a particular spirit and the singular power it grants her.</p>\n<p>Choose one of the shaman&rsquo;s powers each time this Edge is taken. The shaman may cast that power as an action without incurring a @Compendium[swade-core-rules.swade-rules.Multi-Actions]{Multi-Action penalty}, allowing her to invoke <em>@Compendium[swade-core-rules.swade-powers.Protection]{protection}</em>, for example, then make an attack, pray for another blessing, or perform some other action.</p>\n<p>The shaman may only claim this benefit once per @Compendium[swade-core-rules.swade-rules.Action Cards (Initiative)]{turn}, even if she takes Spirit&rsquo;s Favor more than once.</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"Spiritual Barbwire": {
+			"name": "Spiritual Barbwire",
+			"description": "<div class=\"deadlands-core\">\n<p>This Edge allows a deader to create a barrier that keeps out ghosts, poltergeists, and other ethereal entities&mdash;it has no affect on physical entities. The Harrowed makes a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Spirit roll} and then places a @Compendium[swade-core-rules.swade-rules.Blast Templates]{Medium Burst Template} centered on himself. The Spiritual Barbwire persists as long as the cowpoke concentrates on it, which inflicts a &minus;2 penalty on other @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Trait rolls}.</p>\n<p>Entities wishing to enter the Template must make an opposed Spirit check against the deader&rsquo;s total. If they fail, they cannot pass the barrier while the Edge remains active. Spiritual Barbwire stops the entity from passing through, but does not prevent it from &ldquo;normal&rdquo; actions such as Intimidation or throwing physical objects.</p>\n<p>If any living creature of rat-size or larger that started inside the circle crosses to the outside, the Edge is negated and must be reactivated with another Spirit roll.</p>\n</div>",
+			"requirements": {
+				"value": "Veteran, Harrowed"
+			}
+		},
+		"Spook": {
+			"name": "Spook",
+			"description": "<div class=\"deadlands-core\">\n<p>Every so often, an unfortunate soul gets a glimpse of the thing that lives inside a Harrowed. Some run for the hills when they see it. Others might just give a little whimper. But everyone is affected by it, even the most stalwart soul.</p>\n<p>As an @Compendium[swade-core-rules.swade-rules.Actions]{action}, a Harrowed can force a single target to make a @Compendium[swade-core-rules.swade-rules.Fear]{Fear check} at &minus;2. The victim must be reasonably close or able to see the deader (GM&rsquo;s call), and the power can&rsquo;t be used on the same target more than once in the same general encounter. The Harrowed can choose to take a level of @Compendium[swade-core-rules.swade-rules.Fatigue]{Fatigue} to instead affect all targets within 12\".</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Harrowed"
+			}
+		},
+		"Stitchin'": {
+			"name": "Stitchin'",
+			"description": "<div class=\"deadlands-core\">\n<p>A dead man with Stitchin&rsquo; regenerates much faster than normal&mdash;he may make a @Compendium[swade-core-rules.swade-rules.Healing]{natural healing roll} every day, provided he consumes a pound of meat for each attempt.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Harrowed"
+			}
+		},
+		"Superior Kung Fu": {
+			"name": "Superior Kung Fu",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Novice, Spirit d6+, @Compendium[deadlands-core-rules.deadlands-edges.Arcane Background (Chi Master)]{Arcane Background (Chi Master)}, @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} d8+</p>\n<p>Through years of concentrated study under his wizened teacher, your hero has mastered several styles or stances that make up her particular practice of kung fu.</p>\n<p>Choose one of the options below the first time you take this Edge, and another each additional time you take it.</p>\n<p>As a @Compendium[swade-core-rules.swade-rules.Actions]{free action} at the start of her turn, she can assume any one of the styles she&rsquo;s taken below. The benefits of the style remain in place until she changes to a different one.</p>\n<ul>\n<li>\n<p><strong>Drunken Style:</strong> The fighter weaves around like she&rsquo;s out of her tree on fire&shy;water, making her moves hard to follow or predict due to her staggering gait. Opponents subtract 2 from @Compendium[swade-core-rules.swade-rules.Trait Rolls]{attack rolls} to hit her, but her @Compendium[swade-core-rules.swade-rules.Characters]{Pace} is reduced by 2 (she may still @Compendium[swade-core-rules.swade-rules.Movement]{run}).</p>\n</li>\n<li>\n<p><strong>Eagle Claw:</strong> The warrior holds her hands like claws, then strikes quickly and viciously at the enemy like a pecking raptor. This gives her unarmed @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} attacks @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{AP} 4, and it&rsquo;s considered a @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}!</p>\n<p>This ability is critical for those chi masters who find themselves pitted against heavily armored foes, like Dr. Hellstromme&rsquo;s metal automatons!</p>\n</li>\n<li>\n<p><strong>Mantis:</strong> A mantis stu&shy;dent holds her hands like hooks, moving from mes&shy;merizing calm to startling strikes in a terrifying instant.</p>\n<p>Once per round, anyone who fails a @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} attack against the martial artist is @Compendium[swade-core-rules.swade-rules.Distracted and Vulnerable]{Distracted or Vulnerable} (martial artist&rsquo;s choice). This is particularly effective when combined with the @Compendium[swade-core-rules.swade-edges.Counterattack]{Counterattack Edge}.</p>\n</li>\n<li>\n<p><strong>Monkey:</strong> The hero shakes her limbs like a primate, contorting and twisting in odd ways that throw off surrounding foes.</p>\n<p>The martial artist gains +2 @Compendium[swade-core-rules.swade-rules.Parry]{Parry}, rapidly slapping and blocking away his foes&rsquo; strikes. She may also make an @Compendium[swade-core-rules.swade-rules.Test]{Athletics Test} against all adjacent foes as a single action. Each one resists separately.</p>\n</li>\n<li>\n<p><strong>Shuai Chao:</strong> This form emphasizes light grappling techniques followed by throws or strikes. Once per round, when a foe fails a @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} attack against the martial artist, she may make a grapple attempt as a free action (see <strong>@Compendium[swade-core-rules.swade-rules.Grappling]{Grappling}</strong> in <cite>Savage Worlds)</cite>.</p>\n</li>\n<li>\n<p><strong>Tan Tui:</strong> The chi master focuses her attack into a powerful snap kick&mdash;increasing her unarmed combat damage for one @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} attack per round by one die type. If the attack causes the foe to be @Compendium[swade-core-rules.swade-rules.Damage Effects]{Shaken or Wounded}, he&rsquo;s also knocked back 1d4\" with success, or 1d4+2\" with a raise. With a successful @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} roll, she can also rise from being prone without costing her the usual 2\" of movement.</p>\n</li>\n<li>\n<p><strong>Wing Chun:</strong> Wing Chun focuses on fast blocks and flexibility against attacks, like bamboo before a storm. This gives the warrior +1 @Compendium[swade-core-rules.swade-rules.Characters]{Parry} and subtracts 2 from any @Compendium[swade-core-rules.swade-rules.Dealing Damage]{melee damage} she takes while using this style.</p>\n</li>\n</ul>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"Supernatural Attribute": {
+			"name": "Supernatural Attribute",
+			"description": "<div class=\"deadlands-core\">\n<p>Supernatural Attribute immediately improves any one @Compendium[swade-core-rules.swade-rules.Traits]{attribute} by two die types (e.g., a d12 becomes d12+2). This Edge may be taken up to five times, once for each attribute. This increases the limit for that Trait (and any linked @Compendium[swade-core-rules.swade-rules.Traits]{skills)} a like amount.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Harrowed"
+			}
+		},
+		"Tale-Teller": {
+			"name": "Tale-Teller",
+			"description": "<div class=\"deadlands-core\">\n<p>A good storyteller not only entertains, he gives hope and comfort as well. In the Weird West, Tale-Tellers are critical to saving the world!</p>\n<p>What? The world needs saving? You bet it does. Spreading the tales of your posse&rsquo;s derring-do is far more important in the grand scheme of things than putting down some ornery varmint. So if you do something amazing, bucko, tell people about it!</p>\n<p>The Marshal has @Compendium[deadlands-core-rules.deadlands-rules.04 Fear]{all the details}, but this Edge gives you two perks. First, when making a @Compendium[swade-core-rules.swade-skills.Persuasion]{Persuasion} or @Compendium[swade-core-rules.swade-skills.Performance]{Performance} roll to lower the local Fear Level, your hero adds +2 to her total. Second, when you successfully lower the local Fear Level and get a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise} on the Persuasion or Performance roll, the tale-teller and anyone who @Compendium[swade-core-rules.swade-rules.Support]{Supports} her earn <strong>@Compendium[swade-core-rules.swade-rules.Conviction]{Conviction}</strong> (see <cite>Savage Worlds</cite>).</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Performance or Persuasion d8+"
+			}
+		},
+		"Territorial Ranger": {
+			"name": "Territorial Ranger",
+			"description": "<div class=\"deadlands-core\">\n<p>United States Marshals police the states. @Compendium[deadlands-core-rules.deadlands-rules.09 Territorial Rangers]{Rangers} are responsible for the eight territories&mdash;Arizona, California, Idaho, Montana, New Mexico, Washington, Wyoming, the District of Alaska&mdash;and one state, Texas, given that organization&rsquo;s long history there.</p>\n<p>These law dogs hunt thieves, bandits, deserters, and other fugitives from justice throughout the territories. The <em>Tombstone Epitaph</em> claims they often hunt stranger prey&mdash;but only crackpots believe those bedtime stories, right? @Compendium[deadlands-core-rules.deadlands-rules.09 Territorial Rangers]{There&rsquo;s more information about these tough hombres here}.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Vigor d6+, Fighting d6+,     Intimidation d6+, Riding d6+, Shooting d6+, Survival d4+"
+			}
+		},
+		"Trackin' Teeth": {
+			"name": "Trackin' Teeth",
+			"description": "<div class=\"deadlands-core\">\n<p>The dead tend to lose body parts here and there. Those with this Edge can keep track of those parts, whether they&rsquo;re attached to the rest of his cadaver or not!</p>\n<p>Trackin&rsquo; Teeth is a bit of a misnomer as it actually applies to any part of the deader&rsquo;s body, but this is what Coot Jenkins called it and the name stuck.</p>\n<p>A clever Harrowed can learn to use it to not only keep track of his parts, but his enemies&rsquo; whereabouts as well. He need simply plant a substantial piece of himself in or on a thing or person. By &ldquo;substantial&rdquo; we mean a piece of durable body matter such as a chunk of bone or tooth, not something comparatively insubstantial or perishable, like hair or a scrap of rotten flesh. The most accessible parts of a Harrowed are teeth&mdash;hence the Edge&rsquo;s name.</p>\n<p>As long as the Harrowed&rsquo;s piece&mdash;tooth or otherwise&mdash;is within 10 miles, she can automatically sense its direction and approximate distance. If the piece moves out of range, the Harrowed loses track of it, but she picks it up if it comes back in range again.</p>\n</div>",
+			"requirements": {
+				"value": "Seasoned, Harrowed"
+			}
+		},
+		"True Believer": {
+			"name": "True Believer",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Novice, Spirit d10+, Arcane Background (Blessed), Faith d6+</p>\n<p>This holy roller seems to have the ear of his deity. He gets a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{free reroll} on @Compendium[swade-core-rules.swade-skills.Faith]{Faith} rolls.</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"True Genius": {
+			"name": "True Genius",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Novice, Smarts d8+, @Compendium[deadlands-core-rules.deadlands-edges.Arcane Background (Mad Scientist)]{Arcane Background (Mad Scientist)}</p>\n<p>Some say the New Science is inspired by supernatural entities. Most inventors call that superstitious poppycock, but a true genius not only accepts it, she embraces it! After all, it doesn&rsquo;t matter where the idea comes from, it&rsquo;s what you do with the technology that matters! Right?</p>\n<p>Anytime you have to use the @Compendium[deadlands-core-rules.deadlands-tables.Madness Table]{Madness Table} or @Compendium[deadlands-core-rules.deadlands-tables.Infernal Devices Malfunction Table]{infernal device Malfunction Table}, you can spend a @Compendium[swade-core-rules.swade-rules.Bennies]{Benny} to have the Marshal roll again, then choose the result you prefer. You may spend as many Bennies as you like until you&rsquo;re out or as satisfied with the result as you&rsquo;re gonna get!</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"True Grit": {
+			"name": "True Grit",
+			"description": "<div class=\"deadlands-core\">\n<p>This grizzled veteran has seen things that&rsquo;d make others&rsquo; eyes pop like they just saw a rattler in their bedroll. He ignores all penalties when making @Compendium[swade-core-rules.swade-powers.Fear]{Fear checks}, and if failed, gets one free reroll on the <strong>@Compendium[swade-core-rules.swade-tables.Fear Table]{Fear Effects Table}</strong> if he chooses.</p>\n</div>",
+			"requirements": {
+				"value": "Legendary, Spirit d10+, Grit"
+			}
+		},
+		"US Marshal": {
+			"name": "US Marshal",
+			"description": "<div class=\"deadlands-core\">\n<p>US Marshals and Deputy Marshals have legal and policing authority throughout the United States. They may pursue fugitives into territories, but are expected to cooperate with local Rangers as soon as possible.</p>\n<p>Your character may be a Deputy US Marshal or US Marshal&mdash;your choice. Wearing the badge of either grants +1 to @Compendium[swade-core-rules.swade-skills.Persuasion]{Persuasion} and @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation} rolls within their jurisdiction.</p>\n<p>Deputy Marshals are appointed by &ldquo;full&rdquo; US Marshals and have the @Compendium[swade-core-rules.swade-hindrances.Obligation]{Obligation} (Minor) Hindrance to uphold and enforce the law. They can call on the US Marshal who appointed them if things get out of hand, though that individual might not be local.</p>\n<p>Deputy Marshals typically receive $50 a month in salary and fees.</p>\n<p>US Marshals have the Major version of the Hindrance, and are expected to handle most situations on their own.</p>\n<p>US Marshals gain and can use Favors just like @Compendium[deadlands-core-rules.deadlands-rules.02 Agents]{Agents} or Texas @Compendium[deadlands-core-rules.deadlands-rules.09 Territorial Rangers]{Rangers} (see <cite>Deadlands: The Weird West</cite>). They start with 1 and can spend up to 4 on a request right from the start. They gain an additional Favor when the party reduces the Fear Level.</p>\n<p>Marshals are paid $300 a month in salary and fees.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Fighting d4+, Riding d4+, Shooting d4+, Trade (Law) d4+"
+			}
+		},
+		"Unholy Host": {
+			"name": "Unholy Host",
+			"description": "<div class=\"deadlands-core\">\n<p>This Edge grants the Harrowed a group of five @Compendium[swade-core-rules.swade-rules.Allies]{allied} @Compendium[swade-core-rules.swade-rules.Wild Cards and Extras]{Extras}. But in this case, the allies are all dead&hellip;well, undead to be exact.</p>\n<p>The host consists of five @Compendium[deadlands-core-rules.deadlands-actors.Walkin' Dead]{Walkin&rsquo; Dead}. They&rsquo;re animated by lesser manitous, who serve as ruthless and chaotic allies. They can speak (though it&rsquo;s hoarse, gravelly, and stuttering), use weapons, or do anything else a normal person can do. Remember that walkin&rsquo; dead in <cite>Deadlands</cite> aren&rsquo;t mindless zombies&mdash;they&rsquo;re human husks occupied by lesser demons.</p>\n<p>The hero doesn&rsquo;t have a mental link with his Unholy Host, but when he gives them orders, they&rsquo;re bound to follow them. Of course they&rsquo;re also evil incarnate and clever in their interpretations. Give them an inch and they&rsquo;ll leave a slew of bloody corpses for a mile.</p>\n<p>The manitous won&rsquo;t let their champion die if they can help it&mdash;that ends their good times on Earth for a while. They might let him suffer and may get a good laugh out of it though!</p>\n<p>If any are lost, the Harrowed simply needs a new supply of cadavers to let the manitous back in.</p>\n</div>",
+			"requirements": {
+				"value": "Legendary, Harrowed"
+			}
+		},
+		"Veteran O' the Weird West": {
+			"name": "Veterano del Weird West",
+			"description": "<div class=\"deadlands-core\">\n<p>So you want to be a hero, huh? A big, tough, <em>experienced</em> hero? Gotcha. Just check your sanity at the door, because those who&rsquo;ve already gone around the cactus a few times have seen things that would stop most men&rsquo;s tickers. As a result, they ain&rsquo;t the same as they used to be!</p>\n<p>Veterans o&rsquo; the Weird West begin play at @Compendium[swade-core-rules.swade-rules.Advancement]{Seasoned} (or one Rank higher than the rest of the cowpokes in your campaign), which means they gain four @Compendium[swade-core-rules.swade-rules.Advancement]{Advances} right off the bat. Go ahead and apply those now.</p>\n<p>There&rsquo;s a price, though. When you take this Edge, draw a single card from the @Compendium[swade-core-rules.swade-rules.Action Cards (Initiative)]{Action Deck}. Show it to the Marshal and she&rsquo;ll check the @Compendium[deadlands-core-rules.deadlands-tables.Veteran o' the Weird West]{table} to see just what kind of bad luck your hombre wandered into on his path to studliness.</p>\n<p>Beware&mdash;the results can range from maiming to insanity. Your Marshal has all the details. You&rsquo;ve been warned, Tex!</p>\n</div>",
+			"requirements": {
+				"value": "Wild Card, Novice, Spirit d6+, Occult d6+"
+			}
+		},
+		"Whateley Blood": {
+			"name": "Whateley Blood",
+			"description": "<div class=\"deadlands-core\">\n<p><span class=\"western\">Requirements</span>: Novice, @Compendium[deadlands-core-rules.deadlands-edges.Arcane Background (Huckster)]{Arcane Background (Huckster)}</p>\n<p>Somewhere in your family tree is a crooked branch known as the Whateleys. This twisted family of inbred witches and warlocks is known by arcane types as being powerful&mdash;and extremely crazy. Hucksters with Whateley spirit running through their veins have learned &ldquo;blood magic.&rdquo;</p>\n<p>Many of the Whateleys are deformed, although your hero doesn&rsquo;t have to be (take the appropriate @Compendium[swade-core-rules.swade-rules.Hindrances]{Hindrance} if he is). All have some telltale mark&mdash;pale skin, jet-black hair, long fingernails, sallow complexion, and so on, and all have green eyes.</p>\n<p>Whatever mark you choose, there&rsquo;s something about their tainted blood that puts folks off. That unsettled feeling reduces the huckster&rsquo;s @Compendium[swade-core-rules.swade-skills.Persuasion]{Persuasion} rolls by 1, though many overcome it with other Edges taken separately (@Compendium[swade-core-rules.swade-edges.Attractive]{Attractive}, @Compendium[swade-core-rules.swade-edges.Charismatic]{Charismatic}, etc.).</p>\n<p>Now for the meat of the Edge. A huckster with Whateley Blood can voluntarily suffer a @Compendium[swade-core-rules.swade-rules.Fatigue]{Fatigue} for 5 Power Points, or a @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wound} for 10. This is done exactly as you&rsquo;d think&mdash;by cutting, carving, or otherwise maiming themselves (as a @Compendium[swade-core-rules.swade-rules.Actions]{free action}, which makes it pretty messy!). Whateleys are a slippery bunch, so if this @Compendium[swade-core-rules.swade-rules.Damage Effects]{Incapacitates} the caster he completes his turn before keeling over for a dirt nap.</p>\n</div>",
+			"requirements": {
+				"value": "See Below"
+			}
+		},
+		"Wichita Witch": {
+			"name": "Wichita Witch",
+			"description": "<div class=\"deadlands-core\">\n<p>Mina Devlin teaches her orphan girls reading, writing, arithmetic, etiquette, and of course, witchcraft! Her &ldquo;girls&rdquo; also learn how to defend themselves, intimidate the rough hired guns they often command, and of course, fight.</p>\n<p>The trademark black mask, provocative leather outfit, and long whip mark the witch as one of Mina&rsquo;s witches (whether the character is still with her or not). When fully decked out, she adds +1 to @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation} rolls and +1 to @Compendium[swade-core-rules.swade-skills.Persuasion]{Persuasion} rolls to those who might be attracted to her. (She subtracts 1 from Persuasion rolls when dealing with authorities or &ldquo;law and order&rdquo; types&mdash;GM&rsquo;s call).</p>\n<p>Wichita witches also learn to charge their whip with violent energy. This costs one Power Point, is a free action, and can be triggered after the witch hits with the whip. If she hits with a raise and spends the Power Point, she can add a bonus die to the damage as usual (instead of only @Compendium[swade-core-rules.swade-rules.Bound and Entangled]{Entangling} the foe&mdash;see <strong>@Compendium[deadlands-core-rules.deadlands-equipment.Whip]{Whips}</strong>.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Arcane Background (Witch), Spellcasting d8+"
+			}
+		},
+		"Wither": {
+			"name": "Wither",
+			"description": "<div class=\"deadlands-core\">\n<p>This horrifying Edge lets a deader unnaturally age her victim. As an action, the Harrowed must touch her target and make an @Compendium[swade-core-rules.swade-rules.Trait Rolls]{opposed Spirit roll}. If the undead wins, the victim&rsquo;s flesh and bone wither and decay, reducing @Compendium[swade-core-rules.swade-rules.Traits]{Strength} a die type (to a minimum of d4) for one hour. With a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise}, both Strength and @Compendium[swade-core-rules.swade-rules.Traits]{Vigor} are reduced a die type. Multiple uses of Wither on the same target don&rsquo;t stack, but the Harrowed may make secondary attempts to get the raise effect.</p>\n</div>",
+			"requirements": {
+				"value": "Novice, Harrowed"
+			}
+		}
+	}
+}
