@@ -114,8 +114,7 @@ function parseCfName(value){
 	}
 }
 
-Hooks.once('init', () => {
-
+Hooks.on('init', () => {
 	if(typeof Babele !== 'undefined') {
 
 		Babele.get().register({
@@ -141,7 +140,6 @@ Hooks.once('init', () => {
 			},
 			"translateAction": (value, translations, data) => parseAction(value, translations, data),
 		});
-
 	}
 });
 
