@@ -59,7 +59,7 @@
   "SWADE.AttrStrShort": "Si",
   "SWADE.AttrVigShort": "Wi",
   "SWADE.Skills": "Umiejętności",
-  "SWADE.Unskilled": "Imporowizacja",
+  "SWADE.Unskilled": "Improwizacja",
   "SWADE.CoreSkill": "Umiejętność Podstawowa",
   "SWADE.CoreSkills": "Umiejętności Podstawowe",
   "SWADE.CoreSkillsDesc": "Enter a comma-separated list of skill names to be defined as core skills for all actors",

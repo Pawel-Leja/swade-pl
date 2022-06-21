@@ -6,976 +6,983 @@
     },
 	"entries": {
 		"Ace": {
-			"name": "Asso",
-			"description": "Vedi SWADE p.60",
+			"name": "As",
+			"description": "Zobacz SWADE str.49",
 			"requirements": {
-				"value": "Principiante, Agilità d8+"
+				"value": "Nowicjusz, Zręczność d8+"
 			}
 		},
 		"Acrobat": {
-			"name": "Acrobata",
-			"description": "Vedi SWADE p.59",
+			"name": "Akrobata",
+			"description": "Zobacz SWADE str.49",
 			"requirements": {
-				"value": "Principiante, Agilità d8+, Atletica d8+"
+				"value": "Nowicjusz, Zręczność d8+, Wysportowanie d8+"
 			}
 		},
 		"Alertness": {
-			"name": "Allerta",
-			"description": "Vedi SWADE p.46",
+			"name": "Czujny",
+			"description": "Zobacz SWADE str.39",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Alertness (Sensors).": {
-			"name": "Allerta (sensori).",
-			"description": "<p>Vedi SWADE p.46</p>",
+			"name": "Czujny (czujniki).",
+			"description": "Zobacz SWADE str.39",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Ambidextrous": {
-			"name": "Ambidestro",
-			"description": "Vedi SWADE p.37",
+			"name": "Oburęczny",
+			"description": "Zobacz SWADE str.40",
 			"requirements": {
-				"value": "Principiante, Agilità d8+"
+				"value": "Nowicjusz, Zręczność d8+"
 			}
 		},
 		"Arcane Background": {
-			"name": "Background Arcano",
-			"description": "Vedi SWADE p.37",
+			"name": "Zdolności nadprzyrodzone",
+			"description": "Zobacz SWADE str.41",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Arcane Background (Gifted)": {
-			"name": "Background Arcano (Dono)",
-			"description": "<p>Vedi SWADE p.188</p>",
+			"name": "Zdolności nadprzyrodzone (Talent)",
+			"description": "Zobacz SWADE str.151",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Arcane Background (Magic)": {
-			"name": "Background Arcano (Magia)",
-			"description": "<p>Vedi SWADE p.188</p>",
+			"name": "Zdolności nadprzyrodzone (Magia)",
+			"description": "Zobacz SWADE str.150",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Arcane Background (Miracles)": {
-			"name": "Background Arcano (Miracoli)",
-			"description": "<p>Vedi SWADE p.188</p>",
+			"name": "Zdolności nadprzyrodzone (Cuda)",
+			"description": "Zobacz SWADE str.150",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Arcane Background (Psionics)": {
-			"name": "Background Arcano (Arti Psioniche)",
-			"description": "<p>Vedi SWADE p.188</p>",
+			"name": "Zdolności nadprzyrodzone (Psionika)",
+			"description": "Zobacz SWADE str.150",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Arcane Background (Weird Science)": {
-			"name": "Background Arcano (Scienza Folle)",
-			"description": "<p>Vedi SWADE p.188</p>",
+			"name": "Zdolności nadprzyrodzone (Niesamowita Nauka)",
+			"description": "Zobacz SWADE str.150",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Arcane Resistance": {
-			"name": "Resistenza Arcana",
-			"description": "Vedi SWADE p.49",
+			"name": "Niewrażliwy na moc",
+			"description": "Zobacz SWADE str.40",
 			"requirements": {
-				"value": "Principiante, Spirito d8+"
+				"value": "Nowicjusz, Duch d8+"
 			}
 		},
 		"Aristocrat": {
-			"name": "Aristocratico",
-			"description": "Vedi SWADE p.46",
+			"name": "Szycha",
+			"description": "Zobacz SWADE str.41",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Artificer": {
-			"name": "Artefice",
-			"description": "Vedi SWADE p.57",
+			"name": "Konstruktor",
+			"description": "Zobacz SWADE str.47",
 			"requirements": {
-				"value": "Navigato, Background Arcano (Qualsiasi)"
+				"value": "Doświadczony, Zdolności nadprzyrodzone (Dowolne)"
 			}
 		},
-		"Assassin": {
-			"name": "Assassino",
-			"description": "Vedi SWADE p.60",
+		"Assasin": {
+			"name": "Skrytobójca",
+			"description": "Zobacz SWADE str.50",
 			"requirements": {
-				"value": "Principiante, Agilità d8+, Combattere d6+, Furtività d8+"
+				"value": "Nowicjusz, Zręczność d8+, Walka d6+, Skradanie d8+"
 			}
 		},
 		"Attractive": {
-			"name": "Attraente",
-			"description": "Vedi SWADE p.47",
+			"name": "Ładny",
+			"description": "Zobacz SWADE str.40",
 			"requirements": {
-				"value": "Principiante, Vigore d6+"
+				"value": "Nowicjusz, Wigor d6+"
 			}
 		},
 		"Beast Bond": {
-			"name": "Legame Animale",
-			"description": "Vedi SWADE p.65",
+			"name": "Przyjaciel zwierząt",
+			"description": "Zobacz SWADE str.52",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Beast Master": {
-			"name": "Signore delle Bestie",
-			"description": "Vedi SWADE p.65",
+			"name": "Władca zwierząt",
+			"description": "Zobacz SWADE str.53",
 			"requirements": {
-				"value": "Principiante, Spirito d8+"
+				"value": "Nowicjusz, Duch d8+"
 			}
 		},
 		"Berserk": {
 			"name": "Berserk",
-			"description": "Vedi SWADE p.47",
+			"description": "Zobacz SWADE str.38",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Block": {
-			"name": "Bloccare",
-			"description": "Vedi SWADE p.40",
+			"name": "Garda",
+			"description": "Zobacz SWADE str.42",
 			"requirements": {
-				"value": "Navigato, Combattere d8+"
+				"value": "Doświadczony, Walka d8+"
 			}
 		},
 		"Bolster": {
-			"name": "Incoraggiare",
-			"description": "Vedi SWADE p.63",
+			"name": "Duch bojowy",
+			"description": "Zobacz SWADE str.51",
 			"requirements": {
-				"value": "Principiante, Spirito d8+"
+				"value": "Nowicjusz, Duch d8+"
 			}
 		},
 		"Brave": {
-			"name": "Coraggioso",
-			"description": "Vedi SWADE p.48",
+			"name": "Dzielny",
+			"description": "Zobacz SWADE str.40",
 			"requirements": {
-				"value": "Principiante, Spirito d6+"
+				"value": "Nowicjusz, Duch d6+"
 			}
 		},
 		"Brawler": {
-			"name": "Lottatore",
-			"description": "Vedi SWADE p.53",
+			"name": "Pięściarz",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Principiante, Forza d8+, Vigore d8+"
+				"value": "Nowicjusz, Siła d8+, Wigor d8+"
 			}
 		},
 		"Brawny": {
-			"name": "Massiccio",
-			"description": "Vedi SWADE p.49",
+			"name": "Krzepki",
+			"description": "Zobacz SWADE str.40",
 			"requirements": {
-				"value": "Principiante, Forza d6+, Vigore d6+"
+				"value": "Nowicjusz, Siła d6+, Wigor d6+"
 			}
 		},
 		"Bruiser": {
-			"name": "Energumeno",
-			"description": "Vedi SWADE p.53",
+			"name": "Bokser",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Navigato, Lottatore"
+				"value": "Doświadczony, Pięściarz"
 			}
 		},
 		"Brute": {
-			"name": "Bruto",
-			"description": "Vedi SWADE p.47",
+			"name": "Osiłek",
+			"description": "Zobacz SWADE str.40",
 			"requirements": {
-				"value": "Principiante, Forza d6+, Vigore d6+"
+				"value": "Nowicjusz, Siła d6+, Wigor d6+"
 			}
 		},
 		"Calculating": {
-			"name": "Calcolatore",
-			"description": "Vedi SWADE p.51",
+			"name": "Wyczucie chwili",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Principiante, Intelligenza d8+"
+				"value": "Nowicjusz, Spryt d8+"
 			}
 		},
 		"Champion": {
-			"name": "Campione",
-			"description": "Vedi SWADE p.64",
+			"name": "Wybraniec",
+			"description": "Zobacz SWADE str.53",
 			"requirements": {
-				"value": "Principiante, Spirito d8+, Combattere d6+"
+				"value": "Nowicjusz, Duch d8+, Walka d6+"
 			}
 		},
 		"Channeling": {
-			"name": "Incanalare",
-			"description": "Vedi SWADE p.57",
+			"name": "Jedność z mocą",
+			"description": "Zobacz SWADE str.46",
 			"requirements": {
-				"value": "Navigato, Background Arcano (Qualsiasi)"
+				"value": "Doświadczony, Zdolności nadprzyrodzone (Dowolne)"
 			}
 		},
 		"Charismatic": {
-			"name": "Carismatico",
-			"description": "Vedi SWADE p.47",
+			"name": "Charyzmatyczny",
+			"description": "Zobacz SWADE str.39",
 			"requirements": {
-				"value": "Principiante, Spirito d8+"
+				"value": "Nowicjusz, Duch d8+"
 			}
 		},
 		"Chi": {
 			"name": "Chi",
-			"description": "Vedi SWADE p.64",
+			"description": "Zobacz SWADE str.52",
 			"requirements": {
-				"value": "Veterano, Esperto di Arti Marziali"
+				"value": "Weteran, Technika walki"
 			}
 		},
 		"Combat Acrobat": {
-			"name": "Combattimento Acrobatico",
-			"description": "Vedi SWADE p.60",
+			"name": "Akrobata bojowy",
+			"description": "Zobacz SWADE str.49",
 			"requirements": {
-				"value": "Navigato, Acrobata"
+				"value": "Doświadczony, Akrobata"
 			}
 		},
 		"Combat Reflexes": {
-			"name": "Riflessi in Combattimento",
-			"description": "Vedi SWADE p.54",
+			"name": "Zaprawiony w walce",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Navigato"
+				"value": "Doświadczony"
 			}
 		},
 		"Command": {
-			"name": "Comando",
-			"description": "Vedi SWADE p.56",
+			"name": "Baczność!",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Principiante, Intelligenza d6+"
+				"value": "Nowicjusz, Spryt d6+"
 			}
 		},
 		"Command Presence": {
-			"name": "Presenza imperiosa",
-			"description": "Vedi SWADE p.56",
+			"name": "Autorytet",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Navigato, Comando"
+				"value": "Doświadczony, Baczność!"
 			}
 		},
 		"Common Bond": {
-			"name": "Legame comune",
-			"description": "Vedi SWADE p.63",
+			"name": "Prawdziwy przyjaciel",
+			"description": "Zobacz SWADE str.51",
 			"requirements": {
-				"value": "Protagonista, Principiante, Spirito d8+"
+				"value": "Figura, Nowicjusz, Duch d8+"
 			}
 		},
 		"Concentration": {
-			"name": "Concentrazione",
-			"description": "Vedi SWADE p.57",
+			"name": "Koncentracja",
+			"description": "Zobacz SWADE str.47",
 			"requirements": {
-				"value": "Navigato, Background Arcano (Qualsiasi)"
+				"value": "Doświadczony, Zdolności nadprzyrodzone (Dowolne)"
 			}
 		},
 		"Connections": {
-			"name": "Contatti",
-			"description": "Vedi SWADE p.63",
+			"name": "Koneksje",
+			"description": "Zobacz SWADE str.51",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Counterattack": {
-			"name": "Contrattacco",
-			"description": "Vedi SWADE p.51",
+			"name": "Kontratak",
+			"description": "Zobacz SWADE str.42",
 			"requirements": {
-				"value": "Navigato, Combattere d8+"
+				"value": "Doświadczony, Walka d8+"
 			}
 		},
 		"Danger Sense": {
-			"name": "Senso del pericolo",
-			"description": "Vedi SWADE p.65",
+			"name": "Szósty zmysł",
+			"description": "Zobacz SWADE str.53",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Dead Shot": {
-			"name": "Colpo Mortale",
-			"description": "Vedi SWADE p.51",
+			"name": "Zabójczy strzał",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Protagonista, Principiante, Atletica o Sparare d8+"
+				"value": "Figura, Nowicjusz, Strzelanie lub Wysportowanie d8+"
 			}
 		},
 		"Dodge": {
-			"name": "Schivare",
-			"description": "Vedi SWADE p.54",
+			"name": "Unik",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Navigato, Agilità d8+"
+				"value": "Doświadczony, Zręczność d8+"
 			}
 		},
 		"Double Tap": {
-			"name": "Doppio Colpo",
-			"description": "Vedi SWADE p.52",
+			"name": "Dublet",
+			"description": "Zobacz SWADE str.42",
 			"requirements": {
-				"value": "Navigato, Sparare d6+"
+				"value": "Doświadczony, Strzelanie d6+"
 			}
 		},
 		"Elan": {
-			"name": "Impeto",
-			"description": "Vedi SWADE p.49",
+			"name": "Werwa",
+			"description": "Zobacz SWADE str.41",
 			"requirements": {
-				"value": "Principiante, Spirito d8+"
+				"value": "Nowicjusz, Duch d8+"
 			}
 		},
 		"Expert": {
-			"name": "Esperto",
-			"description": "Vedi SWADE p.66",
+			"name": "Ekspert",
+			"description": "Zobacz SWADE str.54",
 			"requirements": {
-				"value": "Leggendario, Professionista nel Tratto specifico"
+				"value": "Legendary, Zawodowiec w danej Cesze"
 			}
 		},
 		"Extra Effort": {
-			"name": "Sforzo in più",
-			"description": "Vedi SWADE p.59",
+			"name": "Mobilizacja",
+			"description": "Zobacz SWADE str.47",
 			"requirements": {
-				"value": "Navigato, Background Arcano (Dono), Focus d6+"
+				"value": "Doświadczony, Zdolności nadprzyrodzone (Talent), Skupienie d6+"
 			}
 		},
 		"Extraction": {
-			"name": "Disimpegno",
-			"description": "Vedi SWADE p.51",
+			"name": "Odejście",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Principiante, Agilità d8+"
+				"value": "Nowicjusz, Zręczność d8+"
 			}
 		},
 		"Fame": {
-			"name": "Fama",
-			"description": "Vedi SWADE p.48",
+			"name": "Rozgłos",
+			"description": "Zobacz SWADE str.41",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Famous": {
-			"name": "Famoso",
-			"description": "Vedi SWADE p.48",
+			"name": "Sława",
+			"description": "Zobacz SWADE str.41",
 			"requirements": {
-				"value": "Navigato, Fama"
+				"value": "Doświadczony, Rozgłos"
 			}
 		},
 		"Fast Healer": {
-			"name": "Guarigione Rapida",
-			"description": "Vedi SWADE p.49",
+			"name": "Końskie zdrowie",
+			"description": "Zobacz SWADE str.40",
 			"requirements": {
-				"value": "Principiante, Vigore d8+"
+				"value": "Nowicjusz, Wigor d8+"
 			}
 		},
 		"Feint": {
-			"name": "Finta",
-			"description": "Vedi SWADE p.52",
+			"name": "Zmyłka",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Principiante, Combattere d8+"
+				"value": "Nowicjusz, Walka d8+"
 			}
 		},
 		"Fervor": {
-			"name": "Fervore",
-			"description": "Vedi SWADE p.56",
+			"name": "Do szturmu!",
+			"description": "Zobacz SWADE str.46",
 			"requirements": {
-				"value": "Veterano, Spirito d8+, Comando"
+				"value": "Weteran, Duch d8+, Baczność!"
 			}
 		},
 		"Filthy Rich": {
-			"name": "Ricco Sfondato",
-			"description": "Vedi SWADE p.50",
+			"name": "Krezus",
+			"description": "Zobacz SWADE str.39",
 			"requirements": {
-				"value": "Principiante, Ricco"
+				"value": "Nowicjusz, Bogaty"
 			}
 		},
 		"First Strike": {
-			"name": "Primo Colpo",
-			"description": "Vedi SWADE p.54",
+			"name": "Szybki cios",
+			"description": "Zobacz SWADE str.44",
 			"requirements": {
-				"value": "Principiante, Agilità d8+"
+				"value": "Nowicjusz, Zręczność d8+"
 			}
 		},
 		"Fleet-Footed": {
-			"name": "Pieveloce",
-			"description": "Vedi SWADE p.49",
+			"name": "Chyży",
+			"description": "Zobacz SWADE str.39",
 			"requirements": {
-				"value": "Principiante, Agilità d6+"
+				"value": "Nowicjusz, Zręczność d6+"
 			}
 		},
 		"Followers": {
-			"name": "Seguaci",
-			"description": "Vedi SWADE p.66",
+			"name": "Podwładni",
+			"description": "Zobacz SWADE str.54",
 			"requirements": {
-				"value": "Protagonista, Leggendario"
+				"value": "Figura, Legendary"
 			}
 		},
 		"Free Runner": {
 			"name": "Parkour",
-			"description": "Vedi SWADE p.54",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Principiante, Agilità d8+, Atletica d6+"
+				"value": "Nowicjusz, Zręczność d8+, Wysportowanie d6+"
 			}
 		},
 		"Frenzy": {
-			"name": "Frenesia",
-			"description": "Vedi SWADE p.52",
+			"name": "Grad ciosów",
+			"description": "Zobacz SWADE str.42",
 			"requirements": {
-				"value": "Navigato, Combattere d8+"
+				"value": "Doświadczony, Walka d8+"
 			}
 		},
 		"Gadgeteer": {
-			"name": "Inventore",
-			"description": "Vedi SWADE p.57",
+			"name": "Pomysłowy Dobromir",
+			"description": "Zobacz SWADE str.47",
 			"requirements": {
-				"value": "Navigato, Background Arcano (Scienza Folle), Scienza Folle d6+"
+				"value": "Doświadczony, Zdolności nadprzyrodzone (Niesamowita nauka), Niesamowita nauka d6+"
 			}
 		},
 		"Giant Killer": {
-			"name": "Ammazzagiganti",
-			"description": "Vedi SWADE p.50",
+			"name": "Zabójca olbrzymów",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Veterano"
+				"value": "Weteran"
 			}
 		},
 		"Great Luck": {
-			"name": "Fortuna Sfacciata",
-			"description": "Vedi SWADE p.49",
+			"name": "Cholerny szczęściarz",
+			"description": "Zobacz SWADE str.41",
 			"requirements": {
-				"value": "Principiante, Fortuna"
+				"value": "Nowicjusz, Szczęściarz"
 			}
 		},
 		"Hard To Kill": {
-			"name": "Duro a Morire",
-			"description": "Vedi SWADE p.52",
+			"name": "Twardziel",
+			"description": "Zobacz SWADE str.44",
 			"requirements": {
-				"value": "Principiante, Spirito d8+"
+				"value": "Nowicjusz, Duch d8+"
 			}
 		},
 		"Harder To Kill": {
-			"name": "Ancora più Duro a Morire",
-			"description": "Vedi SWADE p.52",
+			"name": "Niezniszczalny",
+			"description": "Zobacz SWADE str.44",
 			"requirements": {
-				"value": "Veterano, Duro a Morire"
+				"value": "Weteran, Twardziel"
 			}
 		},
 		"Healer": {
-			"name": "Guaritore",
-			"description": "Vedi SWADE p.65",
+			"name": "Uzdrowiciel",
+			"description": "Zobacz SWADE str.54",
 			"requirements": {
-				"value": "Principiante, Spirito d8+"
+				"value": "Nowicjusz, Duch d8+"
 			}
 		},
 		"Hold The Line!": {
-			"name": "Mantenete la Posizione!",
-			"description": "Vedi SWADE p.56",
+			"name": "Nie przejdą!",
+			"description": "Zobacz SWADE str.46",
 			"requirements": {
-				"value": "Navigato, Intelligenza d8+, Comando"
+				"value": "Doświadczony, Spryt d8+, Baczność!"
 			}
 		},
 		"Humiliate": {
-			"name": "Umiliare",
-			"description": "Vedi SWADE p.64",
+			"name": "Szyderca",
+			"description": "Zobacz SWADE str.52",
 			"requirements": {
-				"value": "Principiante, Provocare d8+"
+				"value": "Nowicjusz, Wyśmiewanie d8+"
 			}
 		},
 		"Improved Arcane Resistance": {
-			"name": "Resistenza Arcana Migliorata",
-			"description": "Vedi SWADE p.49",
+			"name": "Odporny na moc",
+			"description": "Zobacz SWADE str.40",
 			"requirements": {
-				"value": "Principiante, Resistenza Arcana"
+				"value": "Nowicjusz, Niewrażliwy na moc"
 			}
 		},
 		"Improved Block": {
-			"name": "Bloccare Migliorato",
-			"description": "Vedi SWADE p.51",
+			"name": "Podwójna garda",
+			"description": "Zobacz SWADE str.42",
 			"requirements": {
-				"value": "Veterano, Bloccare"
+				"value": "Weteran, Garda"
 			}
 		},
 		"Improved Counterattack": {
-			"name": "Contrattacco Migliorato",
-			"description": "Vedi SWADE p.51",
+			"name": "Imperialny kontratak",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Veterano, Contrattacco"
+				"value": "Weteran, Kontratak"
 			}
 		},
 		"Improved Dodge": {
-			"name": "Schivare Migliorato",
-			"description": "Vedi SWADE p.54",
+			"name": "Błyskawiczny unik",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Navigato, Schivare"
+				"value": "Doświadczony, Unik"
 			}
 		},
 		"Improved Extraction": {
-			"name": "Disimpegno Migliorato",
-			"description": "Vedi SWADE p.52",
+			"name": "Niezawodne odejście",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Navigato, Disimpegno"
+				"value": "Doświadczony, Odejście"
 			}
 		},
 		"Improved First Strike": {
-			"name": "Primo Colpo Migliorato",
-			"description": "Vedi SWADE p.54",
+			"name": "Błyskawiczny cios",
+			"description": "Zobacz SWADE str.44",
 			"requirements": {
-				"value": "Eroico, Pimo colpo"
+				"value": "Heros, Szybki cios"
 			}
 		},
 		"Improved Frenzy": {
-			"name": "Frenesia Migliorata",
-			"description": "Vedi SWADE p.52",
+			"name": "Nawałnica ciosów",
+			"description": "Zobacz SWADE str.42",
 			"requirements": {
-				"value": "Veterano, Frenesia"
+				"value": "Weteran, Grad ciosów"
 			}
 		},
 		"Improved Level Headed": {
-			"name": "Nervi saldi migliorati",
-			"description": "Vedi SWADE p.54",
+			"name": "Wyjątkowo opanowany",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Navigato, Nervi saldi"
+				"value": "Doświadczony, Opanowany"
 			}
 		},
 		"Improved Nerves of Steel": {
-			"name": "Tempra d'Acciaio Migliorato",
-			"description": "Vedi SWADE p.55",
+			"name": "Nerwy z tytanu",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Principiante, Tempra d'Acciaio"
+				"value": "Nowicjusz, Nerwy ze stali"
 			}
 		},
 		"Improved Rapid Fire": {
-			"name": "Fuoco Rapido Migliorato",
-			"description": "Vedi SWADE p.53",
+			"name": "Nawałnica pocisków",
+			"description": "Zobacz SWADE str.42",
 			"requirements": {
-				"value": "Veterano, Fuoco Rapido"
+				"value": "Weteran, Grad pocisków"
 			}
 		},
 		"Improved Rapid Recharge": {
-			"name": "Ricarica Rapida Migliorata",
-			"description": "Vedi SWADE p.59",
+			"name": "Regeneracja mocy",
+			"description": "Zobacz SWADE str.47",
 			"requirements": {
-				"value": "Veterano, Ricarica Rapida"
+				"value": "Weteran, Odzyskiwanie mocy"
 			}
 		},
 		"Improved Sweep": {
-			"name": "Spazzata Migliorata",
-			"description": "Vedi SWADE p.55",
+			"name": "Niezwykle zamaszyste cięcie",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Veterano, Spazzata"
+				"value": "Weteran, Zamaszyste cięcie"
 			}
 		},
 		"Improved Trademark Weapon": {
-			"name": "Arma Personale Migliorata",
-			"description": "Vedi SWADE p.51",
+			"name": "Ukochana broń",
+			"description": "Zobacz SWADE str.44",
 			"requirements": {
-				"value": "Navigato, Arma Personale"
+				"value": "Doświadczony, Ulubiona broń"
 			}
 		},
 		"Improvisational Fighter": {
-			"name": "Combattente Improvvisatore",
-			"description": "Vedi SWADE p.51",
+			"name": "Co się nawinie",
+			"description": "Zobacz SWADE str.42",
 			"requirements": {
-				"value": "Navigato, Intelligenza d6+"
+				"value": "Doświadczony, Spryt d6+"
 			}
 		},
 		"Inspire": {
-			"name": "Ispirare",
-			"description": "Vedi SWADE p.56",
+			"name": "Trzymać szyk!",
+			"description": "Zobacz SWADE str.46",
 			"requirements": {
-				"value": "Navigato, Comando"
+				"value": "Doświadczony, Baczność!"
 			}
 		},
 		"Investigator": {
-			"name": "Investigatore",
-			"description": "Vedi SWADE p.60",
+			"name": "Badacz",
+			"description": "Zobacz SWADE str.49",
 			"requirements": {
-				"value": "Principiante, Intelligenza d8+, Ricerca d8+"
+				"value": "Nowicjusz, Spryt d8+, Wyszukiwanie d8+"
 			}
 		},
 		"Iron Jaw": {
-			"name": "Incassatore",
-			"description": "Vedi SWADE p.53",
+			"name": "Na klatę",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Principiante, Vigore d8+"
+				"value": "Nowicjusz, Wigor d8+"
 			}
 		},
 		"Iron Will": {
-			"name": "Volontà di Ferro Migliorata",
-			"description": "Vedi SWADE p.64",
+			"name": "Żelazny charakter",
+			"description": "Zobacz SWADE str.51",
 			"requirements": {
-				"value": "Navigato, Coraggioso, Volontà di Ferro"
+				"value": "Doświadczony, Charakterny, Dzielny"
 			}
 		},
 		"Jack-of-all-Trades": {
-			"name": "Tuttofare",
-			"description": "Vedi SWADE p.62",
+			"name": "Wszechstronnie uzdolniony",
+			"description": "Zobacz SWADE str.50",
 			"requirements": {
-				"value": "Principiante, Intelligenza d10+"
+				"value": "Nowicjusz, Spryt d10+"
 			}
 		},
 		"Killer Instinct": {
-			"name": "Istinto Omicida",
-			"description": "Vedi SWADE p.53",
+			"name": "Instynkt wojownika",
+			"description": "Zobacz SWADE str.42",
 			"requirements": {
-				"value": "Navigato"
+				"value": "Doświadczony"
 			}
 		},
 		"Level Headed": {
-			"name": "Nervi Saldi",
-			"description": "Vedi SWADE p.54",
+			"name": "Opanowany",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Navigato, Intelligenza d8+"
+				"value": "Doświadczony, Spryt d8+"
 			}
 		},
 		"Linguist": {
-			"name": "Linguista",
-			"description": "Vedi SWADE p.49",
+			"name": "Poliglota",
+			"description": "Zobacz SWADE str.40",
 			"requirements": {
-				"value": "Principiante, Intelligenza d6+"
+				"value": "Nowicjusz, Spryt d6+"
 			}
 		},
 		"Liquid Courage": {
-			"name": "Coraggio in Bottiglia",
-			"description": "Vedi SWADE p.65",
+			"name": "Dla kurażu",
+			"description": "Zobacz SWADE str.52",
 			"requirements": {
-				"value": "Principiante, Vigore d8+"
+				"value": "Nowicjusz, Wigor d8+"
 			}
 		},
 		"Luck": {
-			"name": "Fortuna",
-			"description": "Vedi SWADE p.49",
+			"name": "Szczęściarz",
+			"description": "Zobacz SWADE str.41",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Marksman": {
-			"name": "Tiratore Scelto",
-			"description": "Vedi SWADE p.55",
+			"name": "Sokole oko",
+			"description": "Zobacz SWADE str.44",
 			"requirements": {
-				"value": "Navigato, Atletica d8+ o Sparare d8+"
+				"value": "Doświadczony, Wysportowanie d8+ o Strzelanie d8+"
 			}
 		},
 		"Martial Artist": {
-			"name": "Studente di Arti Marziali",
-			"description": "Vedi SWADE p.55",
+			"name": "Technika walki",
+			"description": "Zobacz SWADE str.44",
 			"requirements": {
-				"value": "Principiante, Combattere d6+"
+				"value": "Nowicjusz, Walka d6+"
 			}
 		},
 		"Martial Warrior": {
-			"name": "Esperto di Arti Marziali",
-			"description": "Vedi SWADE p.55",
+			"name": "Sztuka walki",
+			"description": "Zobacz SWADE str.44",
 			"requirements": {
-				"value": "Navigato, Studente di Arti Marziali"
+				"value": "Doświadczony, Technika walki"
 			}
 		},
 		"Master": {
-			"name": "Maestro",
-			"description": "Vedi SWADE p.66",
+			"name": "Mistrz",
+			"description": "Zobacz SWADE str.54",
 			"requirements": {
-				"value": "Protagonista, Leggendario, Esperto nel Tratto specifico"
+				"value": "Figura, Legendary, Ekspert w danej Cesze"
 			}
 		},
 		"Master of Arms": {
-			"name": "Gran Maestro d'Armi",
-			"description": "Vedi SWADE p.66",
+			"name": "Arcyfechmistrz",
+			"description": "Zobacz SWADE str.53",
 			"requirements": {
-				"value": "Leggendario, Maestro d'Armi"
+				"value": "Legendary, Fechmistrz"
 			}
 		},
 		"Master Tactician": {
-			"name": "Maestro di Tattica",
-			"description": "Vedi SWADE p.57",
+			"name": "Mistrz taktyki",
+			"description": "Zobacz SWADE str.46",
 			"requirements": {
-				"value": "Veterano, Tattico"
+				"value": "Weteran, Taktyk"
 			}
 		},
 		"McGyver": {
 			"name": "McGyver",
-			"description": "Vedi SWADE p.61",
+			"description": "Zobacz SWADE str.49",
 			"requirements": {
-				"value": "Principiante, Intelligenza d6+, Percezione d8+, Riparare d6+"
+				"value": "Nowicjusz, Spryt d6+, Reperowanie d6+, Spostrzegawczość d8+"
 			}
 		},
 		"Menacing": {
-			"name": "Minaccioso",
-			"description": "Vedi SWADE p.63",
+			"name": "Złowrogi",
+			"description": "Zobacz SWADE str.52",
 			"requirements": {
-				"value": "Principiante, uno Svantaggio tra Brutto, Implacabile, Meschino o Sanguinario"
+				"value": "Nowicjusz, jedno z: Bezwzględny, Brzydal, Krwiożerczy lub Wredny"
 			}
 		},
 		"Mentalist": {
 			"name": "Mentalista",
-			"description": "Vedi SWADE p.58",
+			"description": "Zobacz SWADE str.47",
 			"requirements": {
-				"value": "Navigato, Background Arcano (Arti Psioniche), Arti Psioniche d6+"
+				"value": "Doświadczony, Zdolności nadprzyrodzone (Psionika), Psionika d6+"
 			}
 		},
 		"Mighty Blow": {
-			"name": "Colpo Poderoso",
-			"description": "Vedi SWADE p.51",
+			"name": "Zabójczy cios",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Protagonista, Principiante, Combattere d8+"
+				"value": "Figura, Nowicjusz, Walka d8+"
 			}
 		},
 		"Mr. Fix It": {
-			"name": "Riparatutto",
-			"description": "Vedi SWADE p.61",
+			"name": "Złota rączka",
+			"description": "Zobacz SWADE str.50",
 			"requirements": {
-				"value": "Principiante, Riparare d8+"
+				"value": "Nowicjusz, Reperowanie d8+"
 			}
 		},
 		"Natural Leader": {
-			"name": "Leader Nato",
-			"description": "Vedi SWADE p.56",
+			"name": "Urodzony przywódca",
+			"description": "Zobacz SWADE str.46",
 			"requirements": {
-				"value": "Navigato, Spirito d8+, Comando"
+				"value": "Doświadczony, Duch d8+, Baczność!"
 			}
 		},
 		"Nerves of Steel": {
-			"name": "Tempra d'Acciao",
-			"description": "Vedi SWADE p.55",
+			"name": "Nerwy ze stali",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Principiante, Vigore d8+"
+				"value": "Nowicjusz, Wigor d8+"
 			}
 		},
 		"New Powers": {
-			"name": "Nuovi Poteri",
-			"description": "Vedi SWADE p.58",
+			"name": "Nowe moce",
+			"description": "Zobacz SWADE str.47",
 			"requirements": {
-				"value": "Principiante, Background Arcano (Qualsiasi)"
+				"value": "Nowicjusz, Zdolności nadprzyrodzone (Dowolne)"
 			}
 		},
 		"No Mercy": {
-			"name": "Senza Pietà",
-			"description": "Vedi SWADE p.54",
+			"name": "Bez przebaczenia",
+			"description": "Zobacz SWADE str.41",
 			"requirements": {
-				"value": "Navigato"
+				"value": "Doświadczony"
 			}
 		},
 		"Power Points": {
-			"name": "Punti Potere",
-			"description": "Vedi SWADE p.59",
+			"name": "Punkty mocy",
+			"description": "Zobacz SWADE str.48",
 			"requirements": {
-				"value": "Principiante, Background Arcano (Qualsiasi)"
+				"value": "Nowicjusz, Zdolności nadprzyrodzone (Dowolne)"
 			}
 		},
 		"Power Surge": {
-			"name": "Picco di Energia",
-			"description": "Vedi SWADE p.59",
+			"name": "Przypływ mocy",
+			"description": "Zobacz SWADE str.48",
 			"requirements": {
-				"value": "Protagonista, Principiante, Background Arcano (Qualsiasi), abilità arcana d8+"
+				"value": "Figura, Nowicjusz, Zdolności nadprzyrodzone (Dowolne), umiejętność nadprzyrodzona d8+"
 			}
 		},
 		"Professional": {
-			"name": "Professionista",
-			"description": "Vedi SWADE p.66",
+			"name": "Zawodowiec",
+			"description": "Zobacz SWADE str.54",
 			"requirements": {
-				"value": "Leggendario, dado massimo nel Tratto specifico"
+				"value": "Legendary, maksymalna kostka w danej Cesze"
 			}
 		},
 		"Provoke": {
-			"name": "Istigare",
-			"description": "Vedi SWADE p.63",
+			"name": "Prowokator",
+			"description": "Zobacz SWADE str.52",
 			"requirements": {
-				"value": "Principiante, Provocare d6+"
+				"value": "Nowicjusz, Wyśmiewanie d6+"
 			}
 		},
 		"Quick": {
-			"name": "Veloce",
-			"description": "Vedi SWADE p.50",
+			"name": "Błyskawiczny refleks",
+			"description": "Zobacz SWADE str.38",
 			"requirements": {
-				"value": "Principiante, Agilità d8+"
+				"value": "Nowicjusz, Zręczność d8+"
 			}
 		},
 		"Rabble-Rouser": {
-			"name": "Agitatore",
-			"description": "Vedi SWADE p.62",
+			"name": "Mocny w gębie",
+			"description": "Zobacz SWADE str.51",
 			"requirements": {
-				"value": "Navigato, Spirito d8+"
+				"value": "Doświadczony, Duch d8+"
 			}
 		},
 		"Rapid Fire": {
-			"name": "Fuoco Rapido",
-			"description": "Vedi SWADE p.53",
+			"name": "Grad pocisków",
+			"description": "Zobacz SWADE str.42",
 			"requirements": {
-				"value": "Navigato, Sparare d6+"
+				"value": "Doświadczony, Strzelanie d6+"
 			}
 		},
 		"Rapid Recharge": {
-			"name": "Ricarica Rapida",
-			"description": "Vedi SWADE p.59",
+			"name": "Odzyskiwanie mocy",
+			"description": "Zobacz SWADE str.47",
 			"requirements": {
-				"value": "Navigato, Spirito d6+, Background Arcano (Qualsiasi)"
+				"value": "Doświadczony, Duch d6+, Zdolności nadprzyrodzone (Dowolne)"
 			}
 		},
 		"Reliable": {
-			"name": "Affidabile",
-			"description": "Vedi SWADE p.62",
+			"name": "Uczynny",
+			"description": "Zobacz SWADE str.52",
 			"requirements": {
-				"value": "Principiante, Spirito d8+"
+				"value": "Nowicjusz, Duch d8+"
 			}
 		},
 		"Retort": {
-			"name": "Controbattere",
-			"description": "Vedi SWADE p.63",
+			"name": "Cięta riposta",
+			"description": "Zobacz SWADE str.51",
 			"requirements": {
-				"value": "Principiante, Provocare d6+"
+				"value": "Nowicjusz, Wyśmiewanie d6+"
 			}
 		},
 		"Rich": {
-			"name": "Ricco",
-			"description": "Vedi SWADE p.49",
+			"name": "Bogaty",
+			"description": "Zobacz SWADE str.39",
 			"requirements": {
-				"value": "Principiante"
+				"value": "Nowicjusz"
 			}
 		},
 		"Rock and Roll!": {
 			"name": "Rock and Roll!",
-			"description": "Vedi SWADE p.54",
+			"description": "Zobacz SWADE str.44",
 			"requirements": {
-				"value": "Navigato, Sparare d8+"
+				"value": "Doświadczony, Strzelanie d8+"
 			}
 		},
 		"Scavenger": {
-			"name": "Riciclatore",
-			"description": "Vedi SWADE p.65",
+			"name": "Zbieracz",
+			"description": "Zobacz SWADE str.53",
 			"requirements": {
-				"value": "Principiante, Fortuna"
+				"value": "Nowicjusz, Szczęściarz"
 			}
 		},
 		"Scholar": {
-			"name": "Studioso",
-			"description": "Vedi SWADE p.61",
+			"name": "Uczony",
+			"description": "Zobacz SWADE str.50",
 			"requirements": {
-				"value": "Principiante, Ricerca d8+"
+				"value": "Nowicjusz, Wyszukiwanie d8+"
 			}
 		},
 		"Sidekick": {
-			"name": "Spalla",
-			"description": "Vedi SWADE p.67",
+			"name": "Pomagier",
+			"description": "Zobacz SWADE str.54",
 			"requirements": {
-				"value": "Protagonista, Leggendario"
+				"value": "Figura, Legendary"
 			}
 		},
 		"Soldier": {
-			"name": "Soldato",
-			"description": "Vedi SWADE p.61",
+			"name": "Żołnierz",
+			"description": "Zobacz SWADE str.50",
 			"requirements": {
-				"value": "Principiante, Forza d6+, Vigore d6+"
+				"value": "Nowicjusz, Siła d6+, Wigor d6+"
 			}
 		},
 		"Soul Drain": {
-			"name": "Prosciugamento dell'Anima",
-			"description": "Vedi SWADE p.59",
+			"name": "Wyssanie duszy",
+			"description": "Zobacz SWADE str.49",
 			"requirements": {
-				"value": "Navigato, Background Arcano (Qualsiasi), abilità arcana d10+"
+				"value": "Doświadczony, Zdolności nadprzyrodzone (Dowolne), umiejętność nadprzyrodzona d10+"
 			}
 		},
 		"Steady Hands": {
-			"name": "Mano Ferma",
-			"description": "Vedi SWADE p.54",
+			"name": "Pewna ręka",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Principiante, Agilità d8+"
+				"value": "Nowicjusz, Zręczność d8+"
 			}
 		},
 		"Streetwise": {
-			"name": "Bassifondi",
-			"description": "Vedi SWADE p.62",
+			"name": "Gawrosz",
+			"description": "Zobacz SWADE str.51",
 			"requirements": {
-				"value": "Principiante, Intelligenza d6+"
+				"value": "Nowicjusz, Spryt d6+"
 			}
 		},
 		"Strong Willed": {
-			"name": "Volontà di Ferro",
-			"description": "Vedi SWADE p.64",
+			"name": "Charakterny",
+			"description": "Zobacz SWADE str.50",
 			"requirements": {
-				"value": "Principiante, Spirito d8+"
+				"value": "Nowicjusz, Duch d8+"
 			}
 		},
 		"Sweep": {
-			"name": "Spazzata",
-			"description": "Vedi SWADE p.55",
+			"name": "Zamaszyste cięcie",
+			"description": "Zobacz SWADE str.45",
 			"requirements": {
-				"value": "Principiante, Forza d8+, Combattere d8+"
+				"value": "Nowicjusz, Siła d8+, Walka d8+"
 			}
 		},
 		"Tactician": {
-			"name": "Tattico",
-			"description": "Vedi SWADE p.56",
+			"name": "Taktyk",
+			"description": "Zobacz SWADE str.46",
 			"requirements": {
-				"value": "Navigato, Intelligenza d8+, Comando, Battaglia d6+"
+				"value": "Doświadczony, Spryt d8+, Baczność!, Dowodzenie d6+"
 			}
 		},
 		"Thief": {
-			"name": "Ladro",
-			"description": "Vedi SWADE p.61",
+			"name": "Złodziej",
+			"description": "Zobacz SWADE str.50",
 			"requirements": {
-				"value": "Principiante, Agilità d8+, Arte del Furto d6+, Furtività d6+"
+				"value": "Nowicjusz, Zręczność d8+, Skradanie d6+, Złodziejstwo d6+"
 			}
 		},
 		"Tough As Nails": {
-			"name": "Duro come il Ferro",
-			"description": "Vedi SWADE p.66",
+			"name": "Twardy jak skała",
+			"description": "Zobacz SWADE str.54",
 			"requirements": {
-				"value": "Leggendario, Vigore d8+"
+				"value": "Legendary, Wigor d8+"
 			}
 		},
 		"Tougher Than Nails": {
-			"name": "Più Duro del Ferro",
-			"description": "Vedi SWADE p.66",
+			"name": "Twardy jak diament",
+			"description": "Zobacz SWADE str.54",
 			"requirements": {
-				"value": "Leggendario, Duro Come il Ferro, Vigore d12+"
+				"value": "Legendary, Twardy jak skała, Wigor d12+"
 			}
 		},
 		"Trademark Weapon": {
-			"name": "Arma personale",
-			"description": "Vedi SWADE p.50",
+			"name": "Ulubiona broń",
+			"description": "Zobacz SWADE str.44",
 			"requirements": {
-				"value": "Principiante, abilità relativa all’arma scelta a d8+"
+				"value": "Nowicjusz, umiejętność walki wybraną bronią d8+"
 			}
 		},
 		"Two-Fisted": {
-			"name": "Combattente a Due Mani",
-			"description": "Vedi SWADE p.51",
+			"name": "Podwójne uderzenie",
+			"description": "Zobacz SWADE str.43",
 			"requirements": {
-				"value": "Principiante, Agilità d8+"
+				"value": "Nowicjusz, Zręczność d8+"
 			}
 		},
 		"Two-Gun Kid": {
-			"name": "Un Ferro per Mano",
-			"description": "Vedi SWADE p.55",
+			"name": "Podwójny strzał",
+			"description": "Zobacz SWADE str.44",
 			"requirements": {
-				"value": "Principiante, Agilità d8+"
+				"value": "Nowicjusz, Zręczność d8+"
 			}
 		},
 		"Very Attractive": {
-			"name": "Molto Attraente",
-			"description": "Vedi SWADE p.47",
+			"name": "Śliczny",
+			"description": "Zobacz SWADE str.40",
 			"requirements": {
-				"value": "Principiante, Attraente"
+				"value": "Nowicjusz, Ładny"
 			}
 		},
 		"Weapon Master": {
-			"name": "Maestro d'Armi",
-			"description": "Vedi SWADE p.66",
+			"name": "Fechmistrz",
+			"description": "Zobacz SWADE str.53",
 			"requirements": {
-				"value": "Leggendario, Combattere d12+"
+				"value": "Legendary, Walka d12+"
 			}
 		},
 		"Wizard": {
-			"name": "Mago",
-			"description": "Vedi SWADE p.58",
+			"name": "Czarodziej",
+			"description": "Zobacz SWADE str.46",
 			"requirements": {
-				"value": "Navigato, Background Arcano (Magia), Lanciare Incantesimi d6+"
+				"value": "Doświadczony, Zdolności nadprzyrodzone (Magia), Rzuczanie czarów d6+"
 			}
 		},
 		"Woodsman": {
-			"name": "Uomo dei Boschi",
-			"description": "Vedi SWADE p.62",
+			"name": "Tropiciel",
+			"description": "Zobacz SWADE str.50",
 			"requirements": {
-				"value": "Principiante, Spirito d6+, Sopravvivenza d8+"
+				"value": "Nowicjusz, Duch d6+, Przetrwanie d8+"
 			}
 		},
 		"Work The Crowd": {
-			"name": "Coinvolgere Migliorato",
-			"description": "Vedi SWADE p.63",
+			"name": "Uskrzydlający",
+			"description": "Zobacz SWADE str.51",
 			"requirements": {
-				"value": "Navigato, Coinvolgere"
+				"value": "Doświadczony, Inspirujący"
 			}
 		},
 		"Work The Room": {
-			"name": "Coinvolgere",
-			"description": "Vedi SWADE p.63",
+			"name": "Inspirujący",
+			"description": "Zobacz SWADE str.51",
 			"requirements": {
-				"value": "Principiante, Spirito d8+"
+				"value": "Nowicjusz, Duch d8+"
+			}
+		},
+		"Holy/Unholy Warrior": {
+			"name": "Wojownik Światła/Ciemności",
+			"description": "Zobacz SWADE str.48",
+			"requirements": {
+				"value": "Doświadczony, Zdolności nadprzyrodzone (Cuda), Wiara d6+"
 			}
 		}
 	}
